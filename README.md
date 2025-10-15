@@ -11,6 +11,7 @@ A key feature of this system is the integration of a Google Gemini-powered AI, w
 *   **Name:** Juan David Guzman Mendoza
 *   **Clan:** Caiman
 *   **Email:** Juanguzman10102005@gmail.com
+*   **C.C:** 1046699456
 
 ---
 
