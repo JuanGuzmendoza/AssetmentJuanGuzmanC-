@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hospital.Interfaces.IEntity
+  commentId: T:Hospital.Interfaces.IEntity
+  id: IEntity
+  parent: Hospital.Interfaces
+  children:
+  - Hospital.Interfaces.IEntity.Id
+  langs:
+  - csharp
+  - vb
+  name: IEntity
+  nameWithType: IEntity
+  fullName: Hospital.Interfaces.IEntity
+  type: Interface
+  source:
+    id: IEntity
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Interfaces/IEntity.cs
+    startLine: 5
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Interfaces
+  summary: Interface that defines an entity with a unique identifier in the HealthClinic system.
+  example: []
+  syntax:
+    content: public interface IEntity
+    content.vb: Public Interface IEntity
+- uid: Hospital.Interfaces.IEntity.Id
+  commentId: P:Hospital.Interfaces.IEntity.Id
+  id: Id
+  parent: Hospital.Interfaces.IEntity
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: IEntity.Id
+  fullName: Hospital.Interfaces.IEntity.Id
+  type: Property
+  source:
+    id: Id
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Interfaces/IEntity.cs
+    startLine: 10
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Interfaces
+  summary: Unique identifier for the entity.
+  example: []
+  syntax:
+    content: Guid Id { get; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: ReadOnly Property Id As Guid
+  overload: Hospital.Interfaces.IEntity.Id*
+references:
+- uid: Hospital.Interfaces
+  commentId: N:Hospital.Interfaces
+  href: Hospital.html
+  name: Hospital.Interfaces
+  nameWithType: Hospital.Interfaces
+  fullName: Hospital.Interfaces
+  spec.csharp:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Interfaces
+    name: Interfaces
+    href: Hospital.Interfaces.html
+  spec.vb:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Interfaces
+    name: Interfaces
+    href: Hospital.Interfaces.html
+- uid: Hospital.Interfaces.IEntity.Id*
+  commentId: Overload:Hospital.Interfaces.IEntity.Id
+  href: Hospital.Interfaces.IEntity.html#Hospital_Interfaces_IEntity_Id
+  name: Id
+  nameWithType: IEntity.Id
+  fullName: Hospital.Interfaces.IEntity.Id
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,642 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hospital.Models.User
+  commentId: T:Hospital.Models.User
+  id: User
+  parent: Hospital.Models
+  children:
+  - Hospital.Models.User.#ctor
+  - Hospital.Models.User.#ctor(System.String,System.String,System.String,System.String,System.Guid)
+  - Hospital.Models.User.EntityId
+  - Hospital.Models.User.Id
+  - Hospital.Models.User.Name
+  - Hospital.Models.User.Password
+  - Hospital.Models.User.Role
+  - Hospital.Models.User.ShowInformation(Hospital.Models.User)
+  - Hospital.Models.User.Username
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: User
+  fullName: Hospital.Models.User
+  type: Class
+  source:
+    id: User
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/User.cs
+    startLine: 5
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Represents a user in the hospital system, including their credentials and role.
+  example: []
+  syntax:
+    content: public class User
+    content.vb: Public Class User
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Hospital.Models.User.Id
+  commentId: P:Hospital.Models.User.Id
+  id: Id
+  parent: Hospital.Models.User
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: User.Id
+  fullName: Hospital.Models.User.Id
+  type: Property
+  source:
+    id: Id
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/User.cs
+    startLine: 10
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Gets the unique identifier for the user.
+  example: []
+  syntax:
+    content: public Guid Id { get; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property Id As Guid
+  overload: Hospital.Models.User.Id*
+- uid: Hospital.Models.User.Name
+  commentId: P:Hospital.Models.User.Name
+  id: Name
+  parent: Hospital.Models.User
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: User.Name
+  fullName: Hospital.Models.User.Name
+  type: Property
+  source:
+    id: Name
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/User.cs
+    startLine: 15
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Gets or sets the name of the user.
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Hospital.Models.User.Name*
+- uid: Hospital.Models.User.Username
+  commentId: P:Hospital.Models.User.Username
+  id: Username
+  parent: Hospital.Models.User
+  langs:
+  - csharp
+  - vb
+  name: Username
+  nameWithType: User.Username
+  fullName: Hospital.Models.User.Username
+  type: Property
+  source:
+    id: Username
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/User.cs
+    startLine: 20
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Gets or sets the username of the user. Used for login.
+  example: []
+  syntax:
+    content: public string Username { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Username As String
+  overload: Hospital.Models.User.Username*
+- uid: Hospital.Models.User.Password
+  commentId: P:Hospital.Models.User.Password
+  id: Password
+  parent: Hospital.Models.User
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: User.Password
+  fullName: Hospital.Models.User.Password
+  type: Property
+  source:
+    id: Password
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/User.cs
+    startLine: 25
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Gets or sets the password for the user. Used for login validation.
+  example: []
+  syntax:
+    content: public string Password { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Password As String
+  overload: Hospital.Models.User.Password*
+- uid: Hospital.Models.User.Role
+  commentId: P:Hospital.Models.User.Role
+  id: Role
+  parent: Hospital.Models.User
+  langs:
+  - csharp
+  - vb
+  name: Role
+  nameWithType: User.Role
+  fullName: Hospital.Models.User.Role
+  type: Property
+  source:
+    id: Role
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/User.cs
+    startLine: 30
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Gets or sets the role of the user (e.g., "admin", "doctor", "patient").
+  example: []
+  syntax:
+    content: public string Role { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Role As String
+  overload: Hospital.Models.User.Role*
+- uid: Hospital.Models.User.EntityId
+  commentId: P:Hospital.Models.User.EntityId
+  id: EntityId
+  parent: Hospital.Models.User
+  langs:
+  - csharp
+  - vb
+  name: EntityId
+  nameWithType: User.EntityId
+  fullName: Hospital.Models.User.EntityId
+  type: Property
+  source:
+    id: EntityId
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/User.cs
+    startLine: 35
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Gets or sets the ID of the entity linked to the user (e.g., patient ID, doctor ID).
+  example: []
+  syntax:
+    content: public Guid EntityId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property EntityId As Guid
+  overload: Hospital.Models.User.EntityId*
+- uid: Hospital.Models.User.#ctor
+  commentId: M:Hospital.Models.User.#ctor
+  id: '#ctor'
+  parent: Hospital.Models.User
+  langs:
+  - csharp
+  - vb
+  name: User()
+  nameWithType: User.User()
+  fullName: Hospital.Models.User.User()
+  type: Constructor
+  source:
+    id: .ctor
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/User.cs
+    startLine: 40
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Initializes a new instance of the <xref href="Hospital.Models.User" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public User()
+    content.vb: Public Sub New()
+  overload: Hospital.Models.User.#ctor*
+  nameWithType.vb: User.New()
+  fullName.vb: Hospital.Models.User.New()
+  name.vb: New()
+- uid: Hospital.Models.User.#ctor(System.String,System.String,System.String,System.String,System.Guid)
+  commentId: M:Hospital.Models.User.#ctor(System.String,System.String,System.String,System.String,System.Guid)
+  id: '#ctor(System.String,System.String,System.String,System.String,System.Guid)'
+  parent: Hospital.Models.User
+  langs:
+  - csharp
+  - vb
+  name: User(string, string, string, string, Guid)
+  nameWithType: User.User(string, string, string, string, Guid)
+  fullName: Hospital.Models.User.User(string, string, string, string, System.Guid)
+  type: Constructor
+  source:
+    id: .ctor
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/User.cs
+    startLine: 50
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Initializes a new instance of the <xref href="Hospital.Models.User" data-throw-if-not-resolved="false"></xref> class with the specified details.
+  example: []
+  syntax:
+    content: public User(string name, string username, string password, string role, Guid entityId)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the user.
+    - id: username
+      type: System.String
+      description: The username of the user.
+    - id: password
+      type: System.String
+      description: The password of the user.
+    - id: role
+      type: System.String
+      description: The role of the user (e.g., "admin", "doctor", "patient").
+    - id: entityId
+      type: System.Guid
+      description: The ID of the entity linked to the user (e.g., patient ID, doctor ID).
+    content.vb: Public Sub New(name As String, username As String, password As String, role As String, entityId As Guid)
+  overload: Hospital.Models.User.#ctor*
+  nameWithType.vb: User.New(String, String, String, String, Guid)
+  fullName.vb: Hospital.Models.User.New(String, String, String, String, System.Guid)
+  name.vb: New(String, String, String, String, Guid)
+- uid: Hospital.Models.User.ShowInformation(Hospital.Models.User)
+  commentId: M:Hospital.Models.User.ShowInformation(Hospital.Models.User)
+  id: ShowInformation(Hospital.Models.User)
+  parent: Hospital.Models.User
+  langs:
+  - csharp
+  - vb
+  name: ShowInformation(User)
+  nameWithType: User.ShowInformation(User)
+  fullName: Hospital.Models.User.ShowInformation(Hospital.Models.User)
+  type: Method
+  source:
+    id: ShowInformation
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/User.cs
+    startLine: 63
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Displays detailed information about the user.
+  example: []
+  syntax:
+    content: public static void ShowInformation(User user)
+    parameters:
+    - id: user
+      type: Hospital.Models.User
+      description: The user whose information is to be displayed.
+    content.vb: Public Shared Sub ShowInformation(user As User)
+  overload: Hospital.Models.User.ShowInformation*
+references:
+- uid: Hospital.Models
+  commentId: N:Hospital.Models
+  href: Hospital.html
+  name: Hospital.Models
+  nameWithType: Hospital.Models
+  fullName: Hospital.Models
+  spec.csharp:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Models
+    name: Models
+    href: Hospital.Models.html
+  spec.vb:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Models
+    name: Models
+    href: Hospital.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Hospital.Models.User.Id*
+  commentId: Overload:Hospital.Models.User.Id
+  href: Hospital.Models.User.html#Hospital_Models_User_Id
+  name: Id
+  nameWithType: User.Id
+  fullName: Hospital.Models.User.Id
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Hospital.Models.User.Name*
+  commentId: Overload:Hospital.Models.User.Name
+  href: Hospital.Models.User.html#Hospital_Models_User_Name
+  name: Name
+  nameWithType: User.Name
+  fullName: Hospital.Models.User.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Hospital.Models.User.Username*
+  commentId: Overload:Hospital.Models.User.Username
+  href: Hospital.Models.User.html#Hospital_Models_User_Username
+  name: Username
+  nameWithType: User.Username
+  fullName: Hospital.Models.User.Username
+- uid: Hospital.Models.User.Password*
+  commentId: Overload:Hospital.Models.User.Password
+  href: Hospital.Models.User.html#Hospital_Models_User_Password
+  name: Password
+  nameWithType: User.Password
+  fullName: Hospital.Models.User.Password
+- uid: Hospital.Models.User.Role*
+  commentId: Overload:Hospital.Models.User.Role
+  href: Hospital.Models.User.html#Hospital_Models_User_Role
+  name: Role
+  nameWithType: User.Role
+  fullName: Hospital.Models.User.Role
+- uid: Hospital.Models.User.EntityId*
+  commentId: Overload:Hospital.Models.User.EntityId
+  href: Hospital.Models.User.html#Hospital_Models_User_EntityId
+  name: EntityId
+  nameWithType: User.EntityId
+  fullName: Hospital.Models.User.EntityId
+- uid: Hospital.Models.User
+  commentId: T:Hospital.Models.User
+  parent: Hospital.Models
+  href: Hospital.Models.User.html
+  name: User
+  nameWithType: User
+  fullName: Hospital.Models.User
+- uid: Hospital.Models.User.#ctor*
+  commentId: Overload:Hospital.Models.User.#ctor
+  href: Hospital.Models.User.html#Hospital_Models_User__ctor
+  name: User
+  nameWithType: User.User
+  fullName: Hospital.Models.User.User
+  nameWithType.vb: User.New
+  fullName.vb: Hospital.Models.User.New
+  name.vb: New
+- uid: Hospital.Models.User.ShowInformation*
+  commentId: Overload:Hospital.Models.User.ShowInformation
+  href: Hospital.Models.User.html#Hospital_Models_User_ShowInformation_Hospital_Models_User_
+  name: ShowInformation
+  nameWithType: User.ShowInformation
+  fullName: Hospital.Models.User.ShowInformation

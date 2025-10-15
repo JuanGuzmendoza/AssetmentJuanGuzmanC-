@@ -1,0 +1,549 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hospital.Services.AppointmentService
+  commentId: T:Hospital.Services.AppointmentService
+  id: AppointmentService
+  parent: Hospital.Services
+  children:
+  - Hospital.Services.AppointmentService.CancelAsync
+  - Hospital.Services.AppointmentService.CreateAsync(System.Guid)
+  - Hospital.Services.AppointmentService.ListAllAppointmentsAsync
+  - Hospital.Services.AppointmentService.ListByDoctorAsync(System.Guid)
+  - Hospital.Services.AppointmentService.ListByPatientAsync(System.Guid)
+  langs:
+  - csharp
+  - vb
+  name: AppointmentService
+  nameWithType: AppointmentService
+  fullName: Hospital.Services.AppointmentService
+  type: Class
+  source:
+    id: AppointmentService
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Service/AppointmentService.cs
+    startLine: 11
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Services
+  summary: >-
+    Service class that handles operations related to medical appointments.
+
+    This includes creating, listing, and canceling appointments, as well as selecting doctors based on patient symptoms.
+  example: []
+  syntax:
+    content: public static class AppointmentService
+    content.vb: Public Module AppointmentService
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Hospital.Services.AppointmentService.CreateAsync(System.Guid)
+  commentId: M:Hospital.Services.AppointmentService.CreateAsync(System.Guid)
+  id: CreateAsync(System.Guid)
+  parent: Hospital.Services.AppointmentService
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(Guid)
+  nameWithType: AppointmentService.CreateAsync(Guid)
+  fullName: Hospital.Services.AppointmentService.CreateAsync(System.Guid)
+  type: Method
+  source:
+    id: CreateAsync
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Service/AppointmentService.cs
+    startLine: 23
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Services
+  summary: >-
+    Creates a new medical appointment for a patient.
+
+    The user provides the symptoms, selects a doctor based on AI suggestions, and schedules an appointment.
+  example: []
+  syntax:
+    content: public static Task CreateAsync(Guid patientId)
+    parameters:
+    - id: patientId
+      type: System.Guid
+      description: The ID of the patient requesting the appointment.
+    return:
+      type: System.Threading.Tasks.Task
+      description: A task representing the asynchronous operation.
+    content.vb: Public Shared Function CreateAsync(patientId As Guid) As Task
+  overload: Hospital.Services.AppointmentService.CreateAsync*
+- uid: Hospital.Services.AppointmentService.ListByPatientAsync(System.Guid)
+  commentId: M:Hospital.Services.AppointmentService.ListByPatientAsync(System.Guid)
+  id: ListByPatientAsync(System.Guid)
+  parent: Hospital.Services.AppointmentService
+  langs:
+  - csharp
+  - vb
+  name: ListByPatientAsync(Guid)
+  nameWithType: AppointmentService.ListByPatientAsync(Guid)
+  fullName: Hospital.Services.AppointmentService.ListByPatientAsync(System.Guid)
+  type: Method
+  source:
+    id: ListByPatientAsync
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Service/AppointmentService.cs
+    startLine: 96
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Services
+  summary: >-
+    Lists all appointments for a given patient.
+
+    Displays a list of appointments with detailed information.
+  example: []
+  syntax:
+    content: public static Task ListByPatientAsync(Guid patientId)
+    parameters:
+    - id: patientId
+      type: System.Guid
+      description: The ID of the patient whose appointments are to be listed.
+    return:
+      type: System.Threading.Tasks.Task
+      description: A task representing the asynchronous operation.
+    content.vb: Public Shared Function ListByPatientAsync(patientId As Guid) As Task
+  overload: Hospital.Services.AppointmentService.ListByPatientAsync*
+- uid: Hospital.Services.AppointmentService.ListByDoctorAsync(System.Guid)
+  commentId: M:Hospital.Services.AppointmentService.ListByDoctorAsync(System.Guid)
+  id: ListByDoctorAsync(System.Guid)
+  parent: Hospital.Services.AppointmentService
+  langs:
+  - csharp
+  - vb
+  name: ListByDoctorAsync(Guid)
+  nameWithType: AppointmentService.ListByDoctorAsync(Guid)
+  fullName: Hospital.Services.AppointmentService.ListByDoctorAsync(System.Guid)
+  type: Method
+  source:
+    id: ListByDoctorAsync
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Service/AppointmentService.cs
+    startLine: 129
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Services
+  summary: >-
+    Lists all appointments for a given doctor.
+
+    Displays a list of appointments with detailed information.
+  example: []
+  syntax:
+    content: public static Task ListByDoctorAsync(Guid doctorId)
+    parameters:
+    - id: doctorId
+      type: System.Guid
+      description: The ID of the doctor whose appointments are to be listed.
+    return:
+      type: System.Threading.Tasks.Task
+      description: A task representing the asynchronous operation.
+    content.vb: Public Shared Function ListByDoctorAsync(doctorId As Guid) As Task
+  overload: Hospital.Services.AppointmentService.ListByDoctorAsync*
+- uid: Hospital.Services.AppointmentService.ListAllAppointmentsAsync
+  commentId: M:Hospital.Services.AppointmentService.ListAllAppointmentsAsync
+  id: ListAllAppointmentsAsync
+  parent: Hospital.Services.AppointmentService
+  langs:
+  - csharp
+  - vb
+  name: ListAllAppointmentsAsync()
+  nameWithType: AppointmentService.ListAllAppointmentsAsync()
+  fullName: Hospital.Services.AppointmentService.ListAllAppointmentsAsync()
+  type: Method
+  source:
+    id: ListAllAppointmentsAsync
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Service/AppointmentService.cs
+    startLine: 161
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Services
+  summary: >-
+    Lists all appointments in the system.
+
+    Displays all appointments ordered by date and time.
+  example: []
+  syntax:
+    content: public static Task ListAllAppointmentsAsync()
+    return:
+      type: System.Threading.Tasks.Task
+      description: A task representing the asynchronous operation.
+    content.vb: Public Shared Function ListAllAppointmentsAsync() As Task
+  overload: Hospital.Services.AppointmentService.ListAllAppointmentsAsync*
+- uid: Hospital.Services.AppointmentService.CancelAsync
+  commentId: M:Hospital.Services.AppointmentService.CancelAsync
+  id: CancelAsync
+  parent: Hospital.Services.AppointmentService
+  langs:
+  - csharp
+  - vb
+  name: CancelAsync()
+  nameWithType: AppointmentService.CancelAsync()
+  fullName: Hospital.Services.AppointmentService.CancelAsync()
+  type: Method
+  source:
+    id: CancelAsync
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Service/AppointmentService.cs
+    startLine: 192
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Services
+  summary: >-
+    Cancels an appointment by selecting it from a list of scheduled appointments.
+
+    The patient and doctor are notified via email.
+  example: []
+  syntax:
+    content: public static Task CancelAsync()
+    return:
+      type: System.Threading.Tasks.Task
+      description: A task representing the asynchronous operation.
+    content.vb: Public Shared Function CancelAsync() As Task
+  overload: Hospital.Services.AppointmentService.CancelAsync*
+references:
+- uid: Hospital.Services
+  commentId: N:Hospital.Services
+  href: Hospital.html
+  name: Hospital.Services
+  nameWithType: Hospital.Services
+  fullName: Hospital.Services
+  spec.csharp:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Services
+    name: Services
+    href: Hospital.Services.html
+  spec.vb:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Services
+    name: Services
+    href: Hospital.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Hospital.Services.AppointmentService.CreateAsync*
+  commentId: Overload:Hospital.Services.AppointmentService.CreateAsync
+  href: Hospital.Services.AppointmentService.html#Hospital_Services_AppointmentService_CreateAsync_System_Guid_
+  name: CreateAsync
+  nameWithType: AppointmentService.CreateAsync
+  fullName: Hospital.Services.AppointmentService.CreateAsync
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Hospital.Services.AppointmentService.ListByPatientAsync*
+  commentId: Overload:Hospital.Services.AppointmentService.ListByPatientAsync
+  href: Hospital.Services.AppointmentService.html#Hospital_Services_AppointmentService_ListByPatientAsync_System_Guid_
+  name: ListByPatientAsync
+  nameWithType: AppointmentService.ListByPatientAsync
+  fullName: Hospital.Services.AppointmentService.ListByPatientAsync
+- uid: Hospital.Services.AppointmentService.ListByDoctorAsync*
+  commentId: Overload:Hospital.Services.AppointmentService.ListByDoctorAsync
+  href: Hospital.Services.AppointmentService.html#Hospital_Services_AppointmentService_ListByDoctorAsync_System_Guid_
+  name: ListByDoctorAsync
+  nameWithType: AppointmentService.ListByDoctorAsync
+  fullName: Hospital.Services.AppointmentService.ListByDoctorAsync
+- uid: Hospital.Services.AppointmentService.ListAllAppointmentsAsync*
+  commentId: Overload:Hospital.Services.AppointmentService.ListAllAppointmentsAsync
+  href: Hospital.Services.AppointmentService.html#Hospital_Services_AppointmentService_ListAllAppointmentsAsync
+  name: ListAllAppointmentsAsync
+  nameWithType: AppointmentService.ListAllAppointmentsAsync
+  fullName: Hospital.Services.AppointmentService.ListAllAppointmentsAsync
+- uid: Hospital.Services.AppointmentService.CancelAsync*
+  commentId: Overload:Hospital.Services.AppointmentService.CancelAsync
+  href: Hospital.Services.AppointmentService.html#Hospital_Services_AppointmentService_CancelAsync
+  name: CancelAsync
+  nameWithType: AppointmentService.CancelAsync
+  fullName: Hospital.Services.AppointmentService.CancelAsync

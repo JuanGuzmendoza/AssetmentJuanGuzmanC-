@@ -1,0 +1,130 @@
+### YamlMime:TableOfContent
+items:
+- uid: Helpers
+  name: Helpers
+  type: Namespace
+  items:
+  - uid: Helpers.ConsoleUIHelpers
+    name: ConsoleUIHelpers
+    type: Class
+  - uid: Helpers.FirebaseFinder
+    name: FirebaseFinder
+    type: Class
+  - uid: Helpers.Validations
+    name: Validations
+    type: Class
+- uid: Hospital.Data
+  name: Hospital.Data
+  type: Namespace
+  items:
+  - uid: Hospital.Data.DataInitializer
+    name: DataInitializer
+    type: Class
+  - uid: Hospital.Data.DataStore
+    name: DataStore
+    type: Class
+- uid: Hospital.Interfaces
+  name: Hospital.Interfaces
+  type: Namespace
+  items:
+  - uid: Hospital.Interfaces.IEntity
+    name: IEntity
+    type: Interface
+  - uid: Hospital.Interfaces.IRepository`1
+    name: IRepository<T>
+    type: Interface
+- uid: Hospital.Menus
+  name: Hospital.Menus
+  type: Namespace
+  items:
+  - uid: Hospital.Menus.AdminMenu
+    name: AdminMenu
+    type: Class
+  - uid: Hospital.Menus.DoctorMenu
+    name: DoctorMenu
+    type: Class
+  - uid: Hospital.Menus.Login
+    name: Login
+    type: Class
+  - uid: Hospital.Menus.PatientMenu
+    name: PatientMenu
+    type: Class
+- uid: Hospital.Models
+  name: Hospital.Models
+  type: Namespace
+  items:
+  - uid: Hospital.Models.Appointment
+    name: Appointment
+    type: Class
+  - uid: Hospital.Models.AppointmentStatus
+    name: AppointmentStatus
+    type: Enum
+  - uid: Hospital.Models.Doctor
+    name: Doctor
+    type: Class
+  - uid: Hospital.Models.EmailAction
+    name: EmailAction
+    type: Enum
+  - uid: Hospital.Models.EmailLog
+    name: EmailLog
+    type: Class
+  - uid: Hospital.Models.EmailStatus
+    name: EmailStatus
+    type: Enum
+  - uid: Hospital.Models.Patient
+    name: Patient
+    type: Class
+  - uid: Hospital.Models.Person
+    name: Person
+    type: Class
+  - uid: Hospital.Models.User
+    name: User
+    type: Class
+- uid: Hospital.Repositories
+  name: Hospital.Repositories
+  type: Namespace
+  items:
+  - uid: Hospital.Repositories.AppointmentRepository
+    name: AppointmentRepository
+    type: Class
+  - uid: Hospital.Repositories.BaseRepository`1
+    name: BaseRepository<T>
+    type: Class
+  - uid: Hospital.Repositories.DoctorRepository
+    name: DoctorRepository
+    type: Class
+  - uid: Hospital.Repositories.EmailRepository
+    name: EmailRepository
+    type: Class
+  - uid: Hospital.Repositories.PatientRepository
+    name: PatientRepository
+    type: Class
+  - uid: Hospital.Repositories.UserRepository
+    name: UserRepository
+    type: Class
+- uid: Hospital.Services
+  name: Hospital.Services
+  type: Namespace
+  items:
+  - uid: Hospital.Services.AppointmentService
+    name: AppointmentService
+    type: Class
+  - uid: Hospital.Services.DoctorService
+    name: DoctorService
+    type: Class
+  - uid: Hospital.Services.EmailService
+    name: EmailService
+    type: Class
+  - uid: Hospital.Services.GeminiService
+    name: GeminiService
+    type: Class
+  - uid: Hospital.Services.PatientService
+    name: PatientService
+    type: Class
+  - uid: Hospital.Services.SelectedDoctorResult
+    name: SelectedDoctorResult
+    type: Class
+  - uid: Hospital.Services.UserService
+    name: UserService
+    type: Class
+memberLayout: SamePage

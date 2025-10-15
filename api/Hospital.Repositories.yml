@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hospital.Repositories
+  commentId: N:Hospital.Repositories
+  id: Hospital.Repositories
+  children:
+  - Hospital.Repositories.AppointmentRepository
+  - Hospital.Repositories.BaseRepository`1
+  - Hospital.Repositories.DoctorRepository
+  - Hospital.Repositories.EmailRepository
+  - Hospital.Repositories.PatientRepository
+  - Hospital.Repositories.UserRepository
+  langs:
+  - csharp
+  - vb
+  name: Hospital.Repositories
+  nameWithType: Hospital.Repositories
+  fullName: Hospital.Repositories
+  type: Namespace
+  assemblies:
+  - PruebaJuanGuzman
+references:
+- uid: Hospital.Repositories.AppointmentRepository
+  commentId: T:Hospital.Repositories.AppointmentRepository
+  href: Hospital.Repositories.AppointmentRepository.html
+  name: AppointmentRepository
+  nameWithType: AppointmentRepository
+  fullName: Hospital.Repositories.AppointmentRepository
+- uid: Hospital.Repositories.BaseRepository`1
+  commentId: T:Hospital.Repositories.BaseRepository`1
+  href: Hospital.Repositories.BaseRepository-1.html
+  name: BaseRepository<T>
+  nameWithType: BaseRepository<T>
+  fullName: Hospital.Repositories.BaseRepository<T>
+  nameWithType.vb: BaseRepository(Of T)
+  fullName.vb: Hospital.Repositories.BaseRepository(Of T)
+  name.vb: BaseRepository(Of T)
+  spec.csharp:
+  - uid: Hospital.Repositories.BaseRepository`1
+    name: BaseRepository
+    href: Hospital.Repositories.BaseRepository-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Hospital.Repositories.BaseRepository`1
+    name: BaseRepository
+    href: Hospital.Repositories.BaseRepository-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Hospital.Repositories.DoctorRepository
+  commentId: T:Hospital.Repositories.DoctorRepository
+  href: Hospital.Repositories.DoctorRepository.html
+  name: DoctorRepository
+  nameWithType: DoctorRepository
+  fullName: Hospital.Repositories.DoctorRepository
+- uid: Hospital.Repositories.EmailRepository
+  commentId: T:Hospital.Repositories.EmailRepository
+  href: Hospital.Repositories.EmailRepository.html
+  name: EmailRepository
+  nameWithType: EmailRepository
+  fullName: Hospital.Repositories.EmailRepository
+- uid: Hospital.Repositories.PatientRepository
+  commentId: T:Hospital.Repositories.PatientRepository
+  href: Hospital.Repositories.PatientRepository.html
+  name: PatientRepository
+  nameWithType: PatientRepository
+  fullName: Hospital.Repositories.PatientRepository
+- uid: Hospital.Repositories.UserRepository
+  commentId: T:Hospital.Repositories.UserRepository
+  href: Hospital.Repositories.UserRepository.html
+  name: UserRepository
+  nameWithType: UserRepository
+  fullName: Hospital.Repositories.UserRepository

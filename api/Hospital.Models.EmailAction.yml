@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hospital.Models.EmailAction
+  commentId: T:Hospital.Models.EmailAction
+  id: EmailAction
+  parent: Hospital.Models
+  children:
+  - Hospital.Models.EmailAction.Cancellation
+  - Hospital.Models.EmailAction.Confirmation
+  langs:
+  - csharp
+  - vb
+  name: EmailAction
+  nameWithType: EmailAction
+  fullName: Hospital.Models.EmailAction
+  type: Enum
+  source:
+    id: EmailAction
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/EmailAction.cs
+    startLine: 5
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Represents the possible actions related to email notifications within the hospital system.
+  example: []
+  syntax:
+    content: public enum EmailAction
+    content.vb: Public Enum EmailAction
+- uid: Hospital.Models.EmailAction.Confirmation
+  commentId: F:Hospital.Models.EmailAction.Confirmation
+  id: Confirmation
+  parent: Hospital.Models.EmailAction
+  langs:
+  - csharp
+  - vb
+  name: Confirmation
+  nameWithType: EmailAction.Confirmation
+  fullName: Hospital.Models.EmailAction.Confirmation
+  type: Field
+  source:
+    id: Confirmation
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/EmailAction.cs
+    startLine: 10
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Indicates an email for confirming an appointment or other action.
+  example: []
+  syntax:
+    content: Confirmation = 0
+    return:
+      type: Hospital.Models.EmailAction
+- uid: Hospital.Models.EmailAction.Cancellation
+  commentId: F:Hospital.Models.EmailAction.Cancellation
+  id: Cancellation
+  parent: Hospital.Models.EmailAction
+  langs:
+  - csharp
+  - vb
+  name: Cancellation
+  nameWithType: EmailAction.Cancellation
+  fullName: Hospital.Models.EmailAction.Cancellation
+  type: Field
+  source:
+    id: Cancellation
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/EmailAction.cs
+    startLine: 15
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Indicates an email for canceling an appointment or other action.
+  example: []
+  syntax:
+    content: Cancellation = 1
+    return:
+      type: Hospital.Models.EmailAction
+references:
+- uid: Hospital.Models
+  commentId: N:Hospital.Models
+  href: Hospital.html
+  name: Hospital.Models
+  nameWithType: Hospital.Models
+  fullName: Hospital.Models
+  spec.csharp:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Models
+    name: Models
+    href: Hospital.Models.html
+  spec.vb:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Models
+    name: Models
+    href: Hospital.Models.html
+- uid: Hospital.Models.EmailAction
+  commentId: T:Hospital.Models.EmailAction
+  parent: Hospital.Models
+  href: Hospital.Models.EmailAction.html
+  name: EmailAction
+  nameWithType: EmailAction
+  fullName: Hospital.Models.EmailAction

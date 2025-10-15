@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hospital.Services
+  commentId: N:Hospital.Services
+  id: Hospital.Services
+  children:
+  - Hospital.Services.AppointmentService
+  - Hospital.Services.DoctorService
+  - Hospital.Services.EmailService
+  - Hospital.Services.GeminiService
+  - Hospital.Services.PatientService
+  - Hospital.Services.SelectedDoctorResult
+  - Hospital.Services.UserService
+  langs:
+  - csharp
+  - vb
+  name: Hospital.Services
+  nameWithType: Hospital.Services
+  fullName: Hospital.Services
+  type: Namespace
+  assemblies:
+  - PruebaJuanGuzman
+references:
+- uid: Hospital.Services.AppointmentService
+  commentId: T:Hospital.Services.AppointmentService
+  href: Hospital.Services.AppointmentService.html
+  name: AppointmentService
+  nameWithType: AppointmentService
+  fullName: Hospital.Services.AppointmentService
+- uid: Hospital.Services.DoctorService
+  commentId: T:Hospital.Services.DoctorService
+  href: Hospital.Services.DoctorService.html
+  name: DoctorService
+  nameWithType: DoctorService
+  fullName: Hospital.Services.DoctorService
+- uid: Hospital.Services.EmailService
+  commentId: T:Hospital.Services.EmailService
+  href: Hospital.Services.EmailService.html
+  name: EmailService
+  nameWithType: EmailService
+  fullName: Hospital.Services.EmailService
+- uid: Hospital.Services.GeminiService
+  commentId: T:Hospital.Services.GeminiService
+  href: Hospital.Services.GeminiService.html
+  name: GeminiService
+  nameWithType: GeminiService
+  fullName: Hospital.Services.GeminiService
+- uid: Hospital.Services.SelectedDoctorResult
+  commentId: T:Hospital.Services.SelectedDoctorResult
+  href: Hospital.Services.SelectedDoctorResult.html
+  name: SelectedDoctorResult
+  nameWithType: SelectedDoctorResult
+  fullName: Hospital.Services.SelectedDoctorResult
+- uid: Hospital.Services.PatientService
+  commentId: T:Hospital.Services.PatientService
+  href: Hospital.Services.PatientService.html
+  name: PatientService
+  nameWithType: PatientService
+  fullName: Hospital.Services.PatientService
+- uid: Hospital.Services.UserService
+  commentId: T:Hospital.Services.UserService
+  href: Hospital.Services.UserService.html
+  name: UserService
+  nameWithType: UserService
+  fullName: Hospital.Services.UserService

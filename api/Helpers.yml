@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers
+  commentId: N:Helpers
+  id: Helpers
+  children:
+  - Helpers.ConsoleUIHelpers
+  - Helpers.FirebaseFinder
+  - Helpers.Validations
+  langs:
+  - csharp
+  - vb
+  name: Helpers
+  nameWithType: Helpers
+  fullName: Helpers
+  type: Namespace
+  assemblies:
+  - PruebaJuanGuzman
+references:
+- uid: Helpers.FirebaseFinder
+  commentId: T:Helpers.FirebaseFinder
+  href: Helpers.FirebaseFinder.html
+  name: FirebaseFinder
+  nameWithType: FirebaseFinder
+  fullName: Helpers.FirebaseFinder
+- uid: Helpers.ConsoleUIHelpers
+  commentId: T:Helpers.ConsoleUIHelpers
+  href: Helpers.ConsoleUIHelpers.html
+  name: ConsoleUIHelpers
+  nameWithType: ConsoleUIHelpers
+  fullName: Helpers.ConsoleUIHelpers
+- uid: Helpers.Validations
+  commentId: T:Helpers.Validations
+  href: Helpers.Validations.html
+  name: Validations
+  nameWithType: Validations
+  fullName: Helpers.Validations

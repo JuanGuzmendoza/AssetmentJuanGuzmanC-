@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hospital.Menus
+  commentId: N:Hospital.Menus
+  id: Hospital.Menus
+  children:
+  - Hospital.Menus.AdminMenu
+  - Hospital.Menus.DoctorMenu
+  - Hospital.Menus.Login
+  - Hospital.Menus.PatientMenu
+  langs:
+  - csharp
+  - vb
+  name: Hospital.Menus
+  nameWithType: Hospital.Menus
+  fullName: Hospital.Menus
+  type: Namespace
+  assemblies:
+  - PruebaJuanGuzman
+references:
+- uid: Hospital.Menus.AdminMenu
+  commentId: T:Hospital.Menus.AdminMenu
+  href: Hospital.Menus.AdminMenu.html
+  name: AdminMenu
+  nameWithType: AdminMenu
+  fullName: Hospital.Menus.AdminMenu
+- uid: Hospital.Menus.Login
+  commentId: T:Hospital.Menus.Login
+  href: Hospital.Menus.Login.html
+  name: Login
+  nameWithType: Login
+  fullName: Hospital.Menus.Login
+- uid: Hospital.Menus.PatientMenu
+  commentId: T:Hospital.Menus.PatientMenu
+  href: Hospital.Menus.PatientMenu.html
+  name: PatientMenu
+  nameWithType: PatientMenu
+  fullName: Hospital.Menus.PatientMenu
+- uid: Hospital.Menus.DoctorMenu
+  commentId: T:Hospital.Menus.DoctorMenu
+  href: Hospital.Menus.DoctorMenu.html
+  name: DoctorMenu
+  nameWithType: DoctorMenu
+  fullName: Hospital.Menus.DoctorMenu

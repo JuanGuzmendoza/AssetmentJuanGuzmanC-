@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hospital.Models.AppointmentStatus
+  commentId: T:Hospital.Models.AppointmentStatus
+  id: AppointmentStatus
+  parent: Hospital.Models
+  children:
+  - Hospital.Models.AppointmentStatus.Attended
+  - Hospital.Models.AppointmentStatus.Canceled
+  - Hospital.Models.AppointmentStatus.Scheduled
+  langs:
+  - csharp
+  - vb
+  name: AppointmentStatus
+  nameWithType: AppointmentStatus
+  fullName: Hospital.Models.AppointmentStatus
+  type: Enum
+  source:
+    id: AppointmentStatus
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/Appointment.cs
+    startLine: 71
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Enum representing the status of an appointment.
+  example: []
+  syntax:
+    content: public enum AppointmentStatus
+    content.vb: Public Enum AppointmentStatus
+- uid: Hospital.Models.AppointmentStatus.Scheduled
+  commentId: F:Hospital.Models.AppointmentStatus.Scheduled
+  id: Scheduled
+  parent: Hospital.Models.AppointmentStatus
+  langs:
+  - csharp
+  - vb
+  name: Scheduled
+  nameWithType: AppointmentStatus.Scheduled
+  fullName: Hospital.Models.AppointmentStatus.Scheduled
+  type: Field
+  source:
+    id: Scheduled
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/Appointment.cs
+    startLine: 76
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Indicates the appointment is scheduled.
+  example: []
+  syntax:
+    content: Scheduled = 0
+    return:
+      type: Hospital.Models.AppointmentStatus
+- uid: Hospital.Models.AppointmentStatus.Attended
+  commentId: F:Hospital.Models.AppointmentStatus.Attended
+  id: Attended
+  parent: Hospital.Models.AppointmentStatus
+  langs:
+  - csharp
+  - vb
+  name: Attended
+  nameWithType: AppointmentStatus.Attended
+  fullName: Hospital.Models.AppointmentStatus.Attended
+  type: Field
+  source:
+    id: Attended
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/Appointment.cs
+    startLine: 81
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Indicates the appointment was attended by the patient.
+  example: []
+  syntax:
+    content: Attended = 1
+    return:
+      type: Hospital.Models.AppointmentStatus
+- uid: Hospital.Models.AppointmentStatus.Canceled
+  commentId: F:Hospital.Models.AppointmentStatus.Canceled
+  id: Canceled
+  parent: Hospital.Models.AppointmentStatus
+  langs:
+  - csharp
+  - vb
+  name: Canceled
+  nameWithType: AppointmentStatus.Canceled
+  fullName: Hospital.Models.AppointmentStatus.Canceled
+  type: Field
+  source:
+    id: Canceled
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/Appointment.cs
+    startLine: 86
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Indicates the appointment was canceled.
+  example: []
+  syntax:
+    content: Canceled = 2
+    return:
+      type: Hospital.Models.AppointmentStatus
+references:
+- uid: Hospital.Models
+  commentId: N:Hospital.Models
+  href: Hospital.html
+  name: Hospital.Models
+  nameWithType: Hospital.Models
+  fullName: Hospital.Models
+  spec.csharp:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Models
+    name: Models
+    href: Hospital.Models.html
+  spec.vb:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Models
+    name: Models
+    href: Hospital.Models.html
+- uid: Hospital.Models.AppointmentStatus
+  commentId: T:Hospital.Models.AppointmentStatus
+  parent: Hospital.Models
+  href: Hospital.Models.AppointmentStatus.html
+  name: AppointmentStatus
+  nameWithType: AppointmentStatus
+  fullName: Hospital.Models.AppointmentStatus

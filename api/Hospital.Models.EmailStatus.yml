@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hospital.Models.EmailStatus
+  commentId: T:Hospital.Models.EmailStatus
+  id: EmailStatus
+  parent: Hospital.Models
+  children:
+  - Hospital.Models.EmailStatus.NotSent
+  - Hospital.Models.EmailStatus.Sent
+  langs:
+  - csharp
+  - vb
+  name: EmailStatus
+  nameWithType: EmailStatus
+  fullName: Hospital.Models.EmailStatus
+  type: Enum
+  source:
+    id: EmailStatus
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/EmailLog.cs
+    startLine: 70
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Represents the status of the email in the email log.
+  example: []
+  syntax:
+    content: public enum EmailStatus
+    content.vb: Public Enum EmailStatus
+- uid: Hospital.Models.EmailStatus.Sent
+  commentId: F:Hospital.Models.EmailStatus.Sent
+  id: Sent
+  parent: Hospital.Models.EmailStatus
+  langs:
+  - csharp
+  - vb
+  name: Sent
+  nameWithType: EmailStatus.Sent
+  fullName: Hospital.Models.EmailStatus.Sent
+  type: Field
+  source:
+    id: Sent
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/EmailLog.cs
+    startLine: 75
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Indicates the email was successfully sent.
+  example: []
+  syntax:
+    content: Sent = 0
+    return:
+      type: Hospital.Models.EmailStatus
+- uid: Hospital.Models.EmailStatus.NotSent
+  commentId: F:Hospital.Models.EmailStatus.NotSent
+  id: NotSent
+  parent: Hospital.Models.EmailStatus
+  langs:
+  - csharp
+  - vb
+  name: NotSent
+  nameWithType: EmailStatus.NotSent
+  fullName: Hospital.Models.EmailStatus.NotSent
+  type: Field
+  source:
+    id: NotSent
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/EmailLog.cs
+    startLine: 80
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Indicates the email was not sent.
+  example: []
+  syntax:
+    content: NotSent = 1
+    return:
+      type: Hospital.Models.EmailStatus
+references:
+- uid: Hospital.Models
+  commentId: N:Hospital.Models
+  href: Hospital.html
+  name: Hospital.Models
+  nameWithType: Hospital.Models
+  fullName: Hospital.Models
+  spec.csharp:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Models
+    name: Models
+    href: Hospital.Models.html
+  spec.vb:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Models
+    name: Models
+    href: Hospital.Models.html
+- uid: Hospital.Models.EmailStatus
+  commentId: T:Hospital.Models.EmailStatus
+  parent: Hospital.Models
+  href: Hospital.Models.EmailStatus.html
+  name: EmailStatus
+  nameWithType: EmailStatus
+  fullName: Hospital.Models.EmailStatus

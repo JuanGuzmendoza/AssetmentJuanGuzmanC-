@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hospital.Data
+  commentId: N:Hospital.Data
+  id: Hospital.Data
+  children:
+  - Hospital.Data.DataInitializer
+  - Hospital.Data.DataStore
+  langs:
+  - csharp
+  - vb
+  name: Hospital.Data
+  nameWithType: Hospital.Data
+  fullName: Hospital.Data
+  type: Namespace
+  assemblies:
+  - PruebaJuanGuzman
+references:
+- uid: Hospital.Data.DataInitializer
+  commentId: T:Hospital.Data.DataInitializer
+  href: Hospital.Data.DataInitializer.html
+  name: DataInitializer
+  nameWithType: DataInitializer
+  fullName: Hospital.Data.DataInitializer
+- uid: Hospital.Data.DataStore
+  commentId: T:Hospital.Data.DataStore
+  href: Hospital.Data.DataStore.html
+  name: DataStore
+  nameWithType: DataStore
+  fullName: Hospital.Data.DataStore

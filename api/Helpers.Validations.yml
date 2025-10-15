@@ -1,0 +1,562 @@
+### YamlMime:ManagedReference
+items:
+- uid: Helpers.Validations
+  commentId: T:Helpers.Validations
+  id: Validations
+  parent: Helpers
+  children:
+  - Helpers.Validations.ValidateAppointmentDate(System.String)
+  - Helpers.Validations.ValidateContent(System.String)
+  - Helpers.Validations.ValidateDouble(System.String)
+  - Helpers.Validations.ValidateNumber(System.String)
+  - Helpers.Validations.ValidateYesNo(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Validations
+  nameWithType: Validations
+  fullName: Helpers.Validations
+  type: Class
+  source:
+    id: Validations
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Helpers/ValidationHelpers.cs
+    startLine: 7
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Helpers
+  summary: >-
+    A static helper class that provides various validation methods for user input.
+
+    The methods are used to ensure that input values follow certain criteria, such as
+
+    being a valid number, string, or date.
+  example: []
+  syntax:
+    content: public static class Validations
+    content.vb: Public Module Validations
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Helpers.Validations.ValidateYesNo(System.String)
+  commentId: M:Helpers.Validations.ValidateYesNo(System.String)
+  id: ValidateYesNo(System.String)
+  parent: Helpers.Validations
+  langs:
+  - csharp
+  - vb
+  name: ValidateYesNo(string)
+  nameWithType: Validations.ValidateYesNo(string)
+  fullName: Helpers.Validations.ValidateYesNo(string)
+  type: Method
+  source:
+    id: ValidateYesNo
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Helpers/ValidationHelpers.cs
+    startLine: 18
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Helpers
+  summary: >-
+    Validates a Yes/No answer from the user.
+
+    Prompts the user to input 'y'/'yes' for true and 'n'/'no' for false.
+
+    Repeats until valid input is received.
+  example: []
+  syntax:
+    content: public static bool ValidateYesNo(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message that is displayed to the user when prompting for input.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the user enters 'y' or 'yes', <code>false</code> if the user enters 'n' or 'no'.
+    content.vb: Public Shared Function ValidateYesNo(message As String) As Boolean
+  overload: Helpers.Validations.ValidateYesNo*
+  nameWithType.vb: Validations.ValidateYesNo(String)
+  fullName.vb: Helpers.Validations.ValidateYesNo(String)
+  name.vb: ValidateYesNo(String)
+- uid: Helpers.Validations.ValidateContent(System.String)
+  commentId: M:Helpers.Validations.ValidateContent(System.String)
+  id: ValidateContent(System.String)
+  parent: Helpers.Validations
+  langs:
+  - csharp
+  - vb
+  name: ValidateContent(string)
+  nameWithType: Validations.ValidateContent(string)
+  fullName: Helpers.Validations.ValidateContent(string)
+  type: Method
+  source:
+    id: ValidateContent
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Helpers/ValidationHelpers.cs
+    startLine: 44
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Helpers
+  summary: >-
+    Validates that the user input is not empty or whitespace.
+
+    Repeats until a valid non-empty string is provided.
+  example: []
+  syntax:
+    content: public static string ValidateContent(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message that is displayed to the user when prompting for input.
+    return:
+      type: System.String
+      description: A valid string that is not empty or whitespace.
+    content.vb: Public Shared Function ValidateContent(message As String) As String
+  overload: Helpers.Validations.ValidateContent*
+  nameWithType.vb: Validations.ValidateContent(String)
+  fullName.vb: Helpers.Validations.ValidateContent(String)
+  name.vb: ValidateContent(String)
+- uid: Helpers.Validations.ValidateNumber(System.String)
+  commentId: M:Helpers.Validations.ValidateNumber(System.String)
+  id: ValidateNumber(System.String)
+  parent: Helpers.Validations
+  langs:
+  - csharp
+  - vb
+  name: ValidateNumber(string)
+  nameWithType: Validations.ValidateNumber(string)
+  fullName: Helpers.Validations.ValidateNumber(string)
+  type: Method
+  source:
+    id: ValidateNumber
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Helpers/ValidationHelpers.cs
+    startLine: 67
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Helpers
+  summary: >-
+    Validates that the user input is a valid integer number.
+
+    Repeats until a valid integer is provided.
+  example: []
+  syntax:
+    content: public static int ValidateNumber(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message that is displayed to the user when prompting for input.
+    return:
+      type: System.Int32
+      description: A valid integer number.
+    content.vb: Public Shared Function ValidateNumber(message As String) As Integer
+  overload: Helpers.Validations.ValidateNumber*
+  nameWithType.vb: Validations.ValidateNumber(String)
+  fullName.vb: Helpers.Validations.ValidateNumber(String)
+  name.vb: ValidateNumber(String)
+- uid: Helpers.Validations.ValidateDouble(System.String)
+  commentId: M:Helpers.Validations.ValidateDouble(System.String)
+  id: ValidateDouble(System.String)
+  parent: Helpers.Validations
+  langs:
+  - csharp
+  - vb
+  name: ValidateDouble(string)
+  nameWithType: Validations.ValidateDouble(string)
+  fullName: Helpers.Validations.ValidateDouble(string)
+  type: Method
+  source:
+    id: ValidateDouble
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Helpers/ValidationHelpers.cs
+    startLine: 91
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Helpers
+  summary: >-
+    Validates that the user input is a valid floating-point number (double).
+
+    Repeats until a valid floating-point number is provided.
+  example: []
+  syntax:
+    content: public static double ValidateDouble(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message that is displayed to the user when prompting for input.
+    return:
+      type: System.Double
+      description: A valid floating-point number.
+    content.vb: Public Shared Function ValidateDouble(message As String) As Double
+  overload: Helpers.Validations.ValidateDouble*
+  nameWithType.vb: Validations.ValidateDouble(String)
+  fullName.vb: Helpers.Validations.ValidateDouble(String)
+  name.vb: ValidateDouble(String)
+- uid: Helpers.Validations.ValidateAppointmentDate(System.String)
+  commentId: M:Helpers.Validations.ValidateAppointmentDate(System.String)
+  id: ValidateAppointmentDate(System.String)
+  parent: Helpers.Validations
+  langs:
+  - csharp
+  - vb
+  name: ValidateAppointmentDate(string)
+  nameWithType: Validations.ValidateAppointmentDate(string)
+  fullName: Helpers.Validations.ValidateAppointmentDate(string)
+  type: Method
+  source:
+    id: ValidateAppointmentDate
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Helpers/ValidationHelpers.cs
+    startLine: 115
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Helpers
+  summary: >-
+    Validates that the user input is a valid date and time in the format 'yyyy-MM-dd HH:mm'.
+
+    Repeats until a valid date and time string is provided.
+  example: []
+  syntax:
+    content: public static DateTime ValidateAppointmentDate(string message)
+    parameters:
+    - id: message
+      type: System.String
+      description: The message that is displayed to the user when prompting for input.
+    return:
+      type: System.DateTime
+      description: A valid <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref> object representing the entered date and time.
+    content.vb: Public Shared Function ValidateAppointmentDate(message As String) As Date
+  overload: Helpers.Validations.ValidateAppointmentDate*
+  nameWithType.vb: Validations.ValidateAppointmentDate(String)
+  fullName.vb: Helpers.Validations.ValidateAppointmentDate(String)
+  name.vb: ValidateAppointmentDate(String)
+references:
+- uid: Helpers
+  commentId: N:Helpers
+  href: Helpers.html
+  name: Helpers
+  nameWithType: Helpers
+  fullName: Helpers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Helpers.Validations.ValidateYesNo*
+  commentId: Overload:Helpers.Validations.ValidateYesNo
+  href: Helpers.Validations.html#Helpers_Validations_ValidateYesNo_System_String_
+  name: ValidateYesNo
+  nameWithType: Validations.ValidateYesNo
+  fullName: Helpers.Validations.ValidateYesNo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Helpers.Validations.ValidateContent*
+  commentId: Overload:Helpers.Validations.ValidateContent
+  href: Helpers.Validations.html#Helpers_Validations_ValidateContent_System_String_
+  name: ValidateContent
+  nameWithType: Validations.ValidateContent
+  fullName: Helpers.Validations.ValidateContent
+- uid: Helpers.Validations.ValidateNumber*
+  commentId: Overload:Helpers.Validations.ValidateNumber
+  href: Helpers.Validations.html#Helpers_Validations_ValidateNumber_System_String_
+  name: ValidateNumber
+  nameWithType: Validations.ValidateNumber
+  fullName: Helpers.Validations.ValidateNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Helpers.Validations.ValidateDouble*
+  commentId: Overload:Helpers.Validations.ValidateDouble
+  href: Helpers.Validations.html#Helpers_Validations_ValidateDouble_System_String_
+  name: ValidateDouble
+  nameWithType: Validations.ValidateDouble
+  fullName: Helpers.Validations.ValidateDouble
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: Helpers.Validations.ValidateAppointmentDate*
+  commentId: Overload:Helpers.Validations.ValidateAppointmentDate
+  href: Helpers.Validations.html#Helpers_Validations_ValidateAppointmentDate_System_String_
+  name: ValidateAppointmentDate
+  nameWithType: Validations.ValidateAppointmentDate
+  fullName: Helpers.Validations.ValidateAppointmentDate

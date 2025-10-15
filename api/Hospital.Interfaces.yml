@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hospital.Interfaces
+  commentId: N:Hospital.Interfaces
+  id: Hospital.Interfaces
+  children:
+  - Hospital.Interfaces.IEntity
+  - Hospital.Interfaces.IRepository`1
+  langs:
+  - csharp
+  - vb
+  name: Hospital.Interfaces
+  nameWithType: Hospital.Interfaces
+  fullName: Hospital.Interfaces
+  type: Namespace
+  assemblies:
+  - PruebaJuanGuzman
+references:
+- uid: Hospital.Interfaces.IEntity
+  commentId: T:Hospital.Interfaces.IEntity
+  parent: Hospital.Interfaces
+  href: Hospital.Interfaces.IEntity.html
+  name: IEntity
+  nameWithType: IEntity
+  fullName: Hospital.Interfaces.IEntity
+- uid: Hospital.Interfaces.IRepository`1
+  commentId: T:Hospital.Interfaces.IRepository`1
+  href: Hospital.Interfaces.IRepository-1.html
+  name: IRepository<T>
+  nameWithType: IRepository<T>
+  fullName: Hospital.Interfaces.IRepository<T>
+  nameWithType.vb: IRepository(Of T)
+  fullName.vb: Hospital.Interfaces.IRepository(Of T)
+  name.vb: IRepository(Of T)
+  spec.csharp:
+  - uid: Hospital.Interfaces.IRepository`1
+    name: IRepository
+    href: Hospital.Interfaces.IRepository-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Hospital.Interfaces.IRepository`1
+    name: IRepository
+    href: Hospital.Interfaces.IRepository-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Hospital.Interfaces
+  commentId: N:Hospital.Interfaces
+  href: Hospital.html
+  name: Hospital.Interfaces
+  nameWithType: Hospital.Interfaces
+  fullName: Hospital.Interfaces
+  spec.csharp:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Interfaces
+    name: Interfaces
+    href: Hospital.Interfaces.html
+  spec.vb:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Interfaces
+    name: Interfaces
+    href: Hospital.Interfaces.html

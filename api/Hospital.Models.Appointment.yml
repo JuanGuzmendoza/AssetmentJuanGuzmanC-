@@ -1,0 +1,609 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hospital.Models.Appointment
+  commentId: T:Hospital.Models.Appointment
+  id: Appointment
+  parent: Hospital.Models
+  children:
+  - Hospital.Models.Appointment.#ctor
+  - Hospital.Models.Appointment.#ctor(System.Guid,System.Guid,System.DateTime)
+  - Hospital.Models.Appointment.AppointmentDate
+  - Hospital.Models.Appointment.DoctorId
+  - Hospital.Models.Appointment.Id
+  - Hospital.Models.Appointment.PatientId
+  - Hospital.Models.Appointment.ShowInformation(Hospital.Models.Appointment)
+  - Hospital.Models.Appointment.Status
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: Appointment
+  fullName: Hospital.Models.Appointment
+  type: Class
+  source:
+    id: Appointment
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/Appointment.cs
+    startLine: 7
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Represents an appointment in the hospital system, linking a patient to a doctor for a specific time.
+  example: []
+  syntax:
+    content: public class Appointment
+    content.vb: Public Class Appointment
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Hospital.Models.Appointment.Id
+  commentId: P:Hospital.Models.Appointment.Id
+  id: Id
+  parent: Hospital.Models.Appointment
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Appointment.Id
+  fullName: Hospital.Models.Appointment.Id
+  type: Property
+  source:
+    id: Id
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/Appointment.cs
+    startLine: 12
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Gets or sets the unique identifier of the appointment.
+  example: []
+  syntax:
+    content: public Guid Id { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property Id As Guid
+  overload: Hospital.Models.Appointment.Id*
+- uid: Hospital.Models.Appointment.PatientId
+  commentId: P:Hospital.Models.Appointment.PatientId
+  id: PatientId
+  parent: Hospital.Models.Appointment
+  langs:
+  - csharp
+  - vb
+  name: PatientId
+  nameWithType: Appointment.PatientId
+  fullName: Hospital.Models.Appointment.PatientId
+  type: Property
+  source:
+    id: PatientId
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/Appointment.cs
+    startLine: 17
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Gets or sets the unique identifier of the patient associated with the appointment.
+  example: []
+  syntax:
+    content: public Guid PatientId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property PatientId As Guid
+  overload: Hospital.Models.Appointment.PatientId*
+- uid: Hospital.Models.Appointment.DoctorId
+  commentId: P:Hospital.Models.Appointment.DoctorId
+  id: DoctorId
+  parent: Hospital.Models.Appointment
+  langs:
+  - csharp
+  - vb
+  name: DoctorId
+  nameWithType: Appointment.DoctorId
+  fullName: Hospital.Models.Appointment.DoctorId
+  type: Property
+  source:
+    id: DoctorId
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/Appointment.cs
+    startLine: 22
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Gets or sets the unique identifier of the doctor associated with the appointment.
+  example: []
+  syntax:
+    content: public Guid DoctorId { get; set; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property DoctorId As Guid
+  overload: Hospital.Models.Appointment.DoctorId*
+- uid: Hospital.Models.Appointment.AppointmentDate
+  commentId: P:Hospital.Models.Appointment.AppointmentDate
+  id: AppointmentDate
+  parent: Hospital.Models.Appointment
+  langs:
+  - csharp
+  - vb
+  name: AppointmentDate
+  nameWithType: Appointment.AppointmentDate
+  fullName: Hospital.Models.Appointment.AppointmentDate
+  type: Property
+  source:
+    id: AppointmentDate
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/Appointment.cs
+    startLine: 27
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Gets or sets the date and time when the appointment is scheduled.
+  example: []
+  syntax:
+    content: public DateTime AppointmentDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property AppointmentDate As Date
+  overload: Hospital.Models.Appointment.AppointmentDate*
+- uid: Hospital.Models.Appointment.Status
+  commentId: P:Hospital.Models.Appointment.Status
+  id: Status
+  parent: Hospital.Models.Appointment
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: Appointment.Status
+  fullName: Hospital.Models.Appointment.Status
+  type: Property
+  source:
+    id: Status
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/Appointment.cs
+    startLine: 32
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Gets or sets the status of the appointment (e.g., scheduled, attended, canceled).
+  example: []
+  syntax:
+    content: public AppointmentStatus Status { get; set; }
+    parameters: []
+    return:
+      type: Hospital.Models.AppointmentStatus
+    content.vb: Public Property Status As AppointmentStatus
+  overload: Hospital.Models.Appointment.Status*
+- uid: Hospital.Models.Appointment.#ctor
+  commentId: M:Hospital.Models.Appointment.#ctor
+  id: '#ctor'
+  parent: Hospital.Models.Appointment
+  langs:
+  - csharp
+  - vb
+  name: Appointment()
+  nameWithType: Appointment.Appointment()
+  fullName: Hospital.Models.Appointment.Appointment()
+  type: Constructor
+  source:
+    id: .ctor
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/Appointment.cs
+    startLine: 37
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Initializes a new instance of the <xref href="Hospital.Models.Appointment" data-throw-if-not-resolved="false"></xref> class with default values.
+  example: []
+  syntax:
+    content: public Appointment()
+    content.vb: Public Sub New()
+  overload: Hospital.Models.Appointment.#ctor*
+  nameWithType.vb: Appointment.New()
+  fullName.vb: Hospital.Models.Appointment.New()
+  name.vb: New()
+- uid: Hospital.Models.Appointment.#ctor(System.Guid,System.Guid,System.DateTime)
+  commentId: M:Hospital.Models.Appointment.#ctor(System.Guid,System.Guid,System.DateTime)
+  id: '#ctor(System.Guid,System.Guid,System.DateTime)'
+  parent: Hospital.Models.Appointment
+  langs:
+  - csharp
+  - vb
+  name: Appointment(Guid, Guid, DateTime)
+  nameWithType: Appointment.Appointment(Guid, Guid, DateTime)
+  fullName: Hospital.Models.Appointment.Appointment(System.Guid, System.Guid, System.DateTime)
+  type: Constructor
+  source:
+    id: .ctor
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/Appointment.cs
+    startLine: 45
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Initializes a new instance of the <xref href="Hospital.Models.Appointment" data-throw-if-not-resolved="false"></xref> class with specified values.
+  example: []
+  syntax:
+    content: public Appointment(Guid patientId, Guid doctorId, DateTime appointmentDate)
+    parameters:
+    - id: patientId
+      type: System.Guid
+      description: The unique identifier of the patient.
+    - id: doctorId
+      type: System.Guid
+      description: The unique identifier of the doctor.
+    - id: appointmentDate
+      type: System.DateTime
+      description: The date and time of the appointment.
+    content.vb: Public Sub New(patientId As Guid, doctorId As Guid, appointmentDate As Date)
+  overload: Hospital.Models.Appointment.#ctor*
+  nameWithType.vb: Appointment.New(Guid, Guid, Date)
+  fullName.vb: Hospital.Models.Appointment.New(System.Guid, System.Guid, Date)
+  name.vb: New(Guid, Guid, Date)
+- uid: Hospital.Models.Appointment.ShowInformation(Hospital.Models.Appointment)
+  commentId: M:Hospital.Models.Appointment.ShowInformation(Hospital.Models.Appointment)
+  id: ShowInformation(Hospital.Models.Appointment)
+  parent: Hospital.Models.Appointment
+  langs:
+  - csharp
+  - vb
+  name: ShowInformation(Appointment)
+  nameWithType: Appointment.ShowInformation(Appointment)
+  fullName: Hospital.Models.Appointment.ShowInformation(Hospital.Models.Appointment)
+  type: Method
+  source:
+    id: ShowInformation
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Models/Appointment.cs
+    startLine: 57
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Models
+  summary: Displays detailed information about the appointment.
+  example: []
+  syntax:
+    content: public static void ShowInformation(Appointment appt)
+    parameters:
+    - id: appt
+      type: Hospital.Models.Appointment
+      description: The appointment to display information for.
+    content.vb: Public Shared Sub ShowInformation(appt As Appointment)
+  overload: Hospital.Models.Appointment.ShowInformation*
+references:
+- uid: Hospital.Models
+  commentId: N:Hospital.Models
+  href: Hospital.html
+  name: Hospital.Models
+  nameWithType: Hospital.Models
+  fullName: Hospital.Models
+  spec.csharp:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Models
+    name: Models
+    href: Hospital.Models.html
+  spec.vb:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Models
+    name: Models
+    href: Hospital.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Hospital.Models.Appointment.Id*
+  commentId: Overload:Hospital.Models.Appointment.Id
+  href: Hospital.Models.Appointment.html#Hospital_Models_Appointment_Id
+  name: Id
+  nameWithType: Appointment.Id
+  fullName: Hospital.Models.Appointment.Id
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Hospital.Models.Appointment.PatientId*
+  commentId: Overload:Hospital.Models.Appointment.PatientId
+  href: Hospital.Models.Appointment.html#Hospital_Models_Appointment_PatientId
+  name: PatientId
+  nameWithType: Appointment.PatientId
+  fullName: Hospital.Models.Appointment.PatientId
+- uid: Hospital.Models.Appointment.DoctorId*
+  commentId: Overload:Hospital.Models.Appointment.DoctorId
+  href: Hospital.Models.Appointment.html#Hospital_Models_Appointment_DoctorId
+  name: DoctorId
+  nameWithType: Appointment.DoctorId
+  fullName: Hospital.Models.Appointment.DoctorId
+- uid: Hospital.Models.Appointment.AppointmentDate*
+  commentId: Overload:Hospital.Models.Appointment.AppointmentDate
+  href: Hospital.Models.Appointment.html#Hospital_Models_Appointment_AppointmentDate
+  name: AppointmentDate
+  nameWithType: Appointment.AppointmentDate
+  fullName: Hospital.Models.Appointment.AppointmentDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: Hospital.Models.Appointment.Status*
+  commentId: Overload:Hospital.Models.Appointment.Status
+  href: Hospital.Models.Appointment.html#Hospital_Models_Appointment_Status
+  name: Status
+  nameWithType: Appointment.Status
+  fullName: Hospital.Models.Appointment.Status
+- uid: Hospital.Models.AppointmentStatus
+  commentId: T:Hospital.Models.AppointmentStatus
+  parent: Hospital.Models
+  href: Hospital.Models.AppointmentStatus.html
+  name: AppointmentStatus
+  nameWithType: AppointmentStatus
+  fullName: Hospital.Models.AppointmentStatus
+- uid: Hospital.Models.Appointment
+  commentId: T:Hospital.Models.Appointment
+  parent: Hospital.Models
+  href: Hospital.Models.Appointment.html
+  name: Appointment
+  nameWithType: Appointment
+  fullName: Hospital.Models.Appointment
+- uid: Hospital.Models.Appointment.#ctor*
+  commentId: Overload:Hospital.Models.Appointment.#ctor
+  href: Hospital.Models.Appointment.html#Hospital_Models_Appointment__ctor
+  name: Appointment
+  nameWithType: Appointment.Appointment
+  fullName: Hospital.Models.Appointment.Appointment
+  nameWithType.vb: Appointment.New
+  fullName.vb: Hospital.Models.Appointment.New
+  name.vb: New
+- uid: Hospital.Models.Appointment.ShowInformation*
+  commentId: Overload:Hospital.Models.Appointment.ShowInformation
+  href: Hospital.Models.Appointment.html#Hospital_Models_Appointment_ShowInformation_Hospital_Models_Appointment_
+  name: ShowInformation
+  nameWithType: Appointment.ShowInformation
+  fullName: Hospital.Models.Appointment.ShowInformation

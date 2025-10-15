@@ -1,0 +1,579 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hospital.Services.DoctorService
+  commentId: T:Hospital.Services.DoctorService
+  id: DoctorService
+  parent: Hospital.Services
+  children:
+  - Hospital.Services.DoctorService.DeleteAsync
+  - Hospital.Services.DoctorService.ListAsync
+  - Hospital.Services.DoctorService.RegisterAsync
+  - Hospital.Services.DoctorService.ShowAsync
+  - Hospital.Services.DoctorService.UpdateAsync
+  langs:
+  - csharp
+  - vb
+  name: DoctorService
+  nameWithType: DoctorService
+  fullName: Hospital.Services.DoctorService
+  type: Class
+  source:
+    id: DoctorService
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Service/DoctorService.cs
+    startLine: 11
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Services
+  summary: >-
+    Service responsible for managing doctors in the hospital.
+
+    Allows for registering, listing, viewing, updating, and deleting doctors.
+  example: []
+  syntax:
+    content: public static class DoctorService
+    content.vb: Public Module DoctorService
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Hospital.Services.DoctorService.RegisterAsync
+  commentId: M:Hospital.Services.DoctorService.RegisterAsync
+  id: RegisterAsync
+  parent: Hospital.Services.DoctorService
+  langs:
+  - csharp
+  - vb
+  name: RegisterAsync()
+  nameWithType: DoctorService.RegisterAsync()
+  fullName: Hospital.Services.DoctorService.RegisterAsync()
+  type: Method
+  source:
+    id: RegisterAsync
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Service/DoctorService.cs
+    startLine: 19
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Services
+  summary: Registers a new doctor in the system.
+  example: []
+  syntax:
+    content: public static Task<Guid> RegisterAsync()
+    return:
+      type: System.Threading.Tasks.Task{System.Guid}
+      description: The unique identifier (GUID) of the newly registered doctor.
+    content.vb: Public Shared Function RegisterAsync() As Task(Of Guid)
+  overload: Hospital.Services.DoctorService.RegisterAsync*
+- uid: Hospital.Services.DoctorService.ListAsync
+  commentId: M:Hospital.Services.DoctorService.ListAsync
+  id: ListAsync
+  parent: Hospital.Services.DoctorService
+  langs:
+  - csharp
+  - vb
+  name: ListAsync()
+  nameWithType: DoctorService.ListAsync()
+  fullName: Hospital.Services.DoctorService.ListAsync()
+  type: Method
+  source:
+    id: ListAsync
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Service/DoctorService.cs
+    startLine: 68
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Services
+  summary: Lists all registered doctors in the system.
+  example: []
+  syntax:
+    content: public static Task ListAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function ListAsync() As Task
+  overload: Hospital.Services.DoctorService.ListAsync*
+- uid: Hospital.Services.DoctorService.ShowAsync
+  commentId: M:Hospital.Services.DoctorService.ShowAsync
+  id: ShowAsync
+  parent: Hospital.Services.DoctorService
+  langs:
+  - csharp
+  - vb
+  name: ShowAsync()
+  nameWithType: DoctorService.ShowAsync()
+  fullName: Hospital.Services.DoctorService.ShowAsync()
+  type: Method
+  source:
+    id: ShowAsync
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Service/DoctorService.cs
+    startLine: 99
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Services
+  summary: Displays the information of a specific doctor based on their name.
+  remarks: If the doctor is not found, an error message is displayed.
+  example: []
+  syntax:
+    content: public static Task ShowAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function ShowAsync() As Task
+  overload: Hospital.Services.DoctorService.ShowAsync*
+- uid: Hospital.Services.DoctorService.UpdateAsync
+  commentId: M:Hospital.Services.DoctorService.UpdateAsync
+  id: UpdateAsync
+  parent: Hospital.Services.DoctorService
+  langs:
+  - csharp
+  - vb
+  name: UpdateAsync()
+  nameWithType: DoctorService.UpdateAsync()
+  fullName: Hospital.Services.DoctorService.UpdateAsync()
+  type: Method
+  source:
+    id: UpdateAsync
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Service/DoctorService.cs
+    startLine: 126
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Services
+  summary: Updates the details of an existing doctor.
+  remarks: >-
+    If the doctor is not found, an error message is displayed.
+
+    The updatable fields include name, age, address, phone, email, document number, and specialization.
+  example: []
+  syntax:
+    content: public static Task UpdateAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function UpdateAsync() As Task
+  overload: Hospital.Services.DoctorService.UpdateAsync*
+- uid: Hospital.Services.DoctorService.DeleteAsync
+  commentId: M:Hospital.Services.DoctorService.DeleteAsync
+  id: DeleteAsync
+  parent: Hospital.Services.DoctorService
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync()
+  nameWithType: DoctorService.DeleteAsync()
+  fullName: Hospital.Services.DoctorService.DeleteAsync()
+  type: Method
+  source:
+    id: DeleteAsync
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Service/DoctorService.cs
+    startLine: 171
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Services
+  summary: Deletes a doctor from the system based on their name.
+  remarks: If the doctor is not found, an error message is displayed.
+  example: []
+  syntax:
+    content: public static Task DeleteAsync()
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function DeleteAsync() As Task
+  overload: Hospital.Services.DoctorService.DeleteAsync*
+references:
+- uid: Hospital.Services
+  commentId: N:Hospital.Services
+  href: Hospital.html
+  name: Hospital.Services
+  nameWithType: Hospital.Services
+  fullName: Hospital.Services
+  spec.csharp:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Services
+    name: Services
+    href: Hospital.Services.html
+  spec.vb:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Services
+    name: Services
+    href: Hospital.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Hospital.Services.DoctorService.RegisterAsync*
+  commentId: Overload:Hospital.Services.DoctorService.RegisterAsync
+  href: Hospital.Services.DoctorService.html#Hospital_Services_DoctorService_RegisterAsync
+  name: RegisterAsync
+  nameWithType: DoctorService.RegisterAsync
+  fullName: Hospital.Services.DoctorService.RegisterAsync
+- uid: System.Threading.Tasks.Task{System.Guid}
+  commentId: T:System.Threading.Tasks.Task{System.Guid}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Guid>
+  nameWithType: Task<Guid>
+  fullName: System.Threading.Tasks.Task<System.Guid>
+  nameWithType.vb: Task(Of Guid)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Guid)
+  name.vb: Task(Of Guid)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Guid
+    name: Guid
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.guid
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Hospital.Services.DoctorService.ListAsync*
+  commentId: Overload:Hospital.Services.DoctorService.ListAsync
+  href: Hospital.Services.DoctorService.html#Hospital_Services_DoctorService_ListAsync
+  name: ListAsync
+  nameWithType: DoctorService.ListAsync
+  fullName: Hospital.Services.DoctorService.ListAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Hospital.Services.DoctorService.ShowAsync*
+  commentId: Overload:Hospital.Services.DoctorService.ShowAsync
+  href: Hospital.Services.DoctorService.html#Hospital_Services_DoctorService_ShowAsync
+  name: ShowAsync
+  nameWithType: DoctorService.ShowAsync
+  fullName: Hospital.Services.DoctorService.ShowAsync
+- uid: Hospital.Services.DoctorService.UpdateAsync*
+  commentId: Overload:Hospital.Services.DoctorService.UpdateAsync
+  href: Hospital.Services.DoctorService.html#Hospital_Services_DoctorService_UpdateAsync
+  name: UpdateAsync
+  nameWithType: DoctorService.UpdateAsync
+  fullName: Hospital.Services.DoctorService.UpdateAsync
+- uid: Hospital.Services.DoctorService.DeleteAsync*
+  commentId: Overload:Hospital.Services.DoctorService.DeleteAsync
+  href: Hospital.Services.DoctorService.html#Hospital_Services_DoctorService_DeleteAsync
+  name: DeleteAsync
+  nameWithType: DoctorService.DeleteAsync
+  fullName: Hospital.Services.DoctorService.DeleteAsync

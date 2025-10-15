@@ -1,0 +1,907 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hospital.Data.DataStore
+  commentId: T:Hospital.Data.DataStore
+  id: DataStore
+  parent: Hospital.Data
+  children:
+  - Hospital.Data.DataStore.Appointments
+  - Hospital.Data.DataStore.Clear
+  - Hospital.Data.DataStore.Doctors
+  - Hospital.Data.DataStore.EmailLogs
+  - Hospital.Data.DataStore.Patients
+  - Hospital.Data.DataStore.Users
+  langs:
+  - csharp
+  - vb
+  name: DataStore
+  nameWithType: DataStore
+  fullName: Hospital.Data.DataStore
+  type: Class
+  source:
+    id: DataStore
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Data/DataStore.cs
+    startLine: 9
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Data
+  summary: >-
+    A static class that acts as an in-memory data store for various hospital entities.
+
+    It simulates a database by holding collections of patients, doctors, appointments, email logs, and users.
+  example: []
+  syntax:
+    content: public static class DataStore
+    content.vb: Public Module DataStore
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Hospital.Data.DataStore.Patients
+  commentId: P:Hospital.Data.DataStore.Patients
+  id: Patients
+  parent: Hospital.Data.DataStore
+  langs:
+  - csharp
+  - vb
+  name: Patients
+  nameWithType: DataStore.Patients
+  fullName: Hospital.Data.DataStore.Patients
+  type: Property
+  source:
+    id: Patients
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Data/DataStore.cs
+    startLine: 15
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Data
+  summary: >-
+    A dictionary holding the patients in the system.
+
+    The key is a string identifier (e.g., Patient ID) and the value is the <xref href="Hospital.Models.Patient" data-throw-if-not-resolved="false"></xref> object.
+  example: []
+  syntax:
+    content: public static Dictionary<string, Patient> Patients { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Hospital.Models.Patient}
+    content.vb: Public Shared Property Patients As Dictionary(Of String, Patient)
+  overload: Hospital.Data.DataStore.Patients*
+- uid: Hospital.Data.DataStore.Doctors
+  commentId: P:Hospital.Data.DataStore.Doctors
+  id: Doctors
+  parent: Hospital.Data.DataStore
+  langs:
+  - csharp
+  - vb
+  name: Doctors
+  nameWithType: DataStore.Doctors
+  fullName: Hospital.Data.DataStore.Doctors
+  type: Property
+  source:
+    id: Doctors
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Data/DataStore.cs
+    startLine: 21
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Data
+  summary: >-
+    A dictionary holding the doctors in the system.
+
+    The key is a string identifier (e.g., Doctor ID) and the value is the <xref href="Hospital.Models.Doctor" data-throw-if-not-resolved="false"></xref> object.
+  example: []
+  syntax:
+    content: public static Dictionary<string, Doctor> Doctors { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Hospital.Models.Doctor}
+    content.vb: Public Shared Property Doctors As Dictionary(Of String, Doctor)
+  overload: Hospital.Data.DataStore.Doctors*
+- uid: Hospital.Data.DataStore.Appointments
+  commentId: P:Hospital.Data.DataStore.Appointments
+  id: Appointments
+  parent: Hospital.Data.DataStore
+  langs:
+  - csharp
+  - vb
+  name: Appointments
+  nameWithType: DataStore.Appointments
+  fullName: Hospital.Data.DataStore.Appointments
+  type: Property
+  source:
+    id: Appointments
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Data/DataStore.cs
+    startLine: 27
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Data
+  summary: >-
+    A dictionary holding the appointments in the system.
+
+    The key is a string identifier (e.g., Appointment ID) and the value is the <xref href="Hospital.Models.Appointment" data-throw-if-not-resolved="false"></xref> object.
+  example: []
+  syntax:
+    content: public static Dictionary<string, Appointment> Appointments { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Hospital.Models.Appointment}
+    content.vb: Public Shared Property Appointments As Dictionary(Of String, Appointment)
+  overload: Hospital.Data.DataStore.Appointments*
+- uid: Hospital.Data.DataStore.EmailLogs
+  commentId: P:Hospital.Data.DataStore.EmailLogs
+  id: EmailLogs
+  parent: Hospital.Data.DataStore
+  langs:
+  - csharp
+  - vb
+  name: EmailLogs
+  nameWithType: DataStore.EmailLogs
+  fullName: Hospital.Data.DataStore.EmailLogs
+  type: Property
+  source:
+    id: EmailLogs
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Data/DataStore.cs
+    startLine: 33
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Data
+  summary: >-
+    A dictionary holding the email logs in the system.
+
+    The key is a string identifier (e.g., Email Log ID) and the value is the <xref href="Hospital.Models.EmailLog" data-throw-if-not-resolved="false"></xref> object.
+  example: []
+  syntax:
+    content: public static Dictionary<string, EmailLog> EmailLogs { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Hospital.Models.EmailLog}
+    content.vb: Public Shared Property EmailLogs As Dictionary(Of String, EmailLog)
+  overload: Hospital.Data.DataStore.EmailLogs*
+- uid: Hospital.Data.DataStore.Users
+  commentId: P:Hospital.Data.DataStore.Users
+  id: Users
+  parent: Hospital.Data.DataStore
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: DataStore.Users
+  fullName: Hospital.Data.DataStore.Users
+  type: Property
+  source:
+    id: Users
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Data/DataStore.cs
+    startLine: 40
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Data
+  summary: >-
+    A dictionary holding the users in the system.
+
+    This is optional and could be used for implementing user authentication or authorization.
+
+    The key is a string identifier (e.g., User ID) and the value is the <xref href="Hospital.Models.User" data-throw-if-not-resolved="false"></xref> object.
+  example: []
+  syntax:
+    content: public static Dictionary<string, User> Users { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Hospital.Models.User}
+    content.vb: Public Shared Property Users As Dictionary(Of String, User)
+  overload: Hospital.Data.DataStore.Users*
+- uid: Hospital.Data.DataStore.Clear
+  commentId: M:Hospital.Data.DataStore.Clear
+  id: Clear
+  parent: Hospital.Data.DataStore
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: DataStore.Clear()
+  fullName: Hospital.Data.DataStore.Clear()
+  type: Method
+  source:
+    id: Clear
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Data/DataStore.cs
+    startLine: 50
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Data
+  summary: >-
+    Clears all data in the store.
+
+    This method is useful when resetting the system or logging out users.
+  remarks: >-
+    This method clears all the dictionaries: <xref href="Hospital.Data.DataStore.Patients" data-throw-if-not-resolved="false"></xref>, <xref href="Hospital.Data.DataStore.Doctors" data-throw-if-not-resolved="false"></xref>, 
+
+    <xref href="Hospital.Data.DataStore.Appointments" data-throw-if-not-resolved="false"></xref>, <xref href="Hospital.Data.DataStore.EmailLogs" data-throw-if-not-resolved="false"></xref>, and <xref href="Hospital.Data.DataStore.Users" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static void Clear()
+    content.vb: Public Shared Sub Clear()
+  overload: Hospital.Data.DataStore.Clear*
+references:
+- uid: Hospital.Data
+  commentId: N:Hospital.Data
+  href: Hospital.html
+  name: Hospital.Data
+  nameWithType: Hospital.Data
+  fullName: Hospital.Data
+  spec.csharp:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Data
+    name: Data
+    href: Hospital.Data.html
+  spec.vb:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Data
+    name: Data
+    href: Hospital.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Hospital.Models.Patient
+  commentId: T:Hospital.Models.Patient
+  parent: Hospital.Models
+  href: Hospital.Models.Patient.html
+  name: Patient
+  nameWithType: Patient
+  fullName: Hospital.Models.Patient
+- uid: Hospital.Data.DataStore.Patients*
+  commentId: Overload:Hospital.Data.DataStore.Patients
+  href: Hospital.Data.DataStore.html#Hospital_Data_DataStore_Patients
+  name: Patients
+  nameWithType: DataStore.Patients
+  fullName: Hospital.Data.DataStore.Patients
+- uid: System.Collections.Generic.Dictionary{System.String,Hospital.Models.Patient}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Hospital.Models.Patient}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, Patient>
+  nameWithType: Dictionary<string, Patient>
+  fullName: System.Collections.Generic.Dictionary<string, Hospital.Models.Patient>
+  nameWithType.vb: Dictionary(Of String, Patient)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Hospital.Models.Patient)
+  name.vb: Dictionary(Of String, Patient)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Hospital.Models.Patient
+    name: Patient
+    href: Hospital.Models.Patient.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Hospital.Models.Patient
+    name: Patient
+    href: Hospital.Models.Patient.html
+  - name: )
+- uid: Hospital.Models
+  commentId: N:Hospital.Models
+  href: Hospital.html
+  name: Hospital.Models
+  nameWithType: Hospital.Models
+  fullName: Hospital.Models
+  spec.csharp:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Models
+    name: Models
+    href: Hospital.Models.html
+  spec.vb:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Models
+    name: Models
+    href: Hospital.Models.html
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Hospital.Models.Doctor
+  commentId: T:Hospital.Models.Doctor
+  parent: Hospital.Models
+  href: Hospital.Models.Doctor.html
+  name: Doctor
+  nameWithType: Doctor
+  fullName: Hospital.Models.Doctor
+- uid: Hospital.Data.DataStore.Doctors*
+  commentId: Overload:Hospital.Data.DataStore.Doctors
+  href: Hospital.Data.DataStore.html#Hospital_Data_DataStore_Doctors
+  name: Doctors
+  nameWithType: DataStore.Doctors
+  fullName: Hospital.Data.DataStore.Doctors
+- uid: System.Collections.Generic.Dictionary{System.String,Hospital.Models.Doctor}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Hospital.Models.Doctor}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, Doctor>
+  nameWithType: Dictionary<string, Doctor>
+  fullName: System.Collections.Generic.Dictionary<string, Hospital.Models.Doctor>
+  nameWithType.vb: Dictionary(Of String, Doctor)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Hospital.Models.Doctor)
+  name.vb: Dictionary(Of String, Doctor)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Hospital.Models.Doctor
+    name: Doctor
+    href: Hospital.Models.Doctor.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Hospital.Models.Doctor
+    name: Doctor
+    href: Hospital.Models.Doctor.html
+  - name: )
+- uid: Hospital.Models.Appointment
+  commentId: T:Hospital.Models.Appointment
+  parent: Hospital.Models
+  href: Hospital.Models.Appointment.html
+  name: Appointment
+  nameWithType: Appointment
+  fullName: Hospital.Models.Appointment
+- uid: Hospital.Data.DataStore.Appointments*
+  commentId: Overload:Hospital.Data.DataStore.Appointments
+  href: Hospital.Data.DataStore.html#Hospital_Data_DataStore_Appointments
+  name: Appointments
+  nameWithType: DataStore.Appointments
+  fullName: Hospital.Data.DataStore.Appointments
+- uid: System.Collections.Generic.Dictionary{System.String,Hospital.Models.Appointment}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Hospital.Models.Appointment}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, Appointment>
+  nameWithType: Dictionary<string, Appointment>
+  fullName: System.Collections.Generic.Dictionary<string, Hospital.Models.Appointment>
+  nameWithType.vb: Dictionary(Of String, Appointment)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Hospital.Models.Appointment)
+  name.vb: Dictionary(Of String, Appointment)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Hospital.Models.Appointment
+    name: Appointment
+    href: Hospital.Models.Appointment.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Hospital.Models.Appointment
+    name: Appointment
+    href: Hospital.Models.Appointment.html
+  - name: )
+- uid: Hospital.Models.EmailLog
+  commentId: T:Hospital.Models.EmailLog
+  parent: Hospital.Models
+  href: Hospital.Models.EmailLog.html
+  name: EmailLog
+  nameWithType: EmailLog
+  fullName: Hospital.Models.EmailLog
+- uid: Hospital.Data.DataStore.EmailLogs*
+  commentId: Overload:Hospital.Data.DataStore.EmailLogs
+  href: Hospital.Data.DataStore.html#Hospital_Data_DataStore_EmailLogs
+  name: EmailLogs
+  nameWithType: DataStore.EmailLogs
+  fullName: Hospital.Data.DataStore.EmailLogs
+- uid: System.Collections.Generic.Dictionary{System.String,Hospital.Models.EmailLog}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Hospital.Models.EmailLog}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, EmailLog>
+  nameWithType: Dictionary<string, EmailLog>
+  fullName: System.Collections.Generic.Dictionary<string, Hospital.Models.EmailLog>
+  nameWithType.vb: Dictionary(Of String, EmailLog)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Hospital.Models.EmailLog)
+  name.vb: Dictionary(Of String, EmailLog)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Hospital.Models.EmailLog
+    name: EmailLog
+    href: Hospital.Models.EmailLog.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Hospital.Models.EmailLog
+    name: EmailLog
+    href: Hospital.Models.EmailLog.html
+  - name: )
+- uid: Hospital.Models.User
+  commentId: T:Hospital.Models.User
+  parent: Hospital.Models
+  href: Hospital.Models.User.html
+  name: User
+  nameWithType: User
+  fullName: Hospital.Models.User
+- uid: Hospital.Data.DataStore.Users*
+  commentId: Overload:Hospital.Data.DataStore.Users
+  href: Hospital.Data.DataStore.html#Hospital_Data_DataStore_Users
+  name: Users
+  nameWithType: DataStore.Users
+  fullName: Hospital.Data.DataStore.Users
+- uid: System.Collections.Generic.Dictionary{System.String,Hospital.Models.User}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Hospital.Models.User}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, User>
+  nameWithType: Dictionary<string, User>
+  fullName: System.Collections.Generic.Dictionary<string, Hospital.Models.User>
+  nameWithType.vb: Dictionary(Of String, User)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Hospital.Models.User)
+  name.vb: Dictionary(Of String, User)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Hospital.Models.User
+    name: User
+    href: Hospital.Models.User.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Hospital.Models.User
+    name: User
+    href: Hospital.Models.User.html
+  - name: )
+- uid: Hospital.Data.DataStore.Patients
+  commentId: P:Hospital.Data.DataStore.Patients
+  href: Hospital.Data.DataStore.html#Hospital_Data_DataStore_Patients
+  name: Patients
+  nameWithType: DataStore.Patients
+  fullName: Hospital.Data.DataStore.Patients
+- uid: Hospital.Data.DataStore.Doctors
+  commentId: P:Hospital.Data.DataStore.Doctors
+  href: Hospital.Data.DataStore.html#Hospital_Data_DataStore_Doctors
+  name: Doctors
+  nameWithType: DataStore.Doctors
+  fullName: Hospital.Data.DataStore.Doctors
+- uid: Hospital.Data.DataStore.Appointments
+  commentId: P:Hospital.Data.DataStore.Appointments
+  href: Hospital.Data.DataStore.html#Hospital_Data_DataStore_Appointments
+  name: Appointments
+  nameWithType: DataStore.Appointments
+  fullName: Hospital.Data.DataStore.Appointments
+- uid: Hospital.Data.DataStore.EmailLogs
+  commentId: P:Hospital.Data.DataStore.EmailLogs
+  href: Hospital.Data.DataStore.html#Hospital_Data_DataStore_EmailLogs
+  name: EmailLogs
+  nameWithType: DataStore.EmailLogs
+  fullName: Hospital.Data.DataStore.EmailLogs
+- uid: Hospital.Data.DataStore.Users
+  commentId: P:Hospital.Data.DataStore.Users
+  href: Hospital.Data.DataStore.html#Hospital_Data_DataStore_Users
+  name: Users
+  nameWithType: DataStore.Users
+  fullName: Hospital.Data.DataStore.Users
+- uid: Hospital.Data.DataStore.Clear*
+  commentId: Overload:Hospital.Data.DataStore.Clear
+  href: Hospital.Data.DataStore.html#Hospital_Data_DataStore_Clear
+  name: Clear
+  nameWithType: DataStore.Clear
+  fullName: Hospital.Data.DataStore.Clear

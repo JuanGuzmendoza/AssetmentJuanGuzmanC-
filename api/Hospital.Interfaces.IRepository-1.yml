@@ -1,0 +1,490 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hospital.Interfaces.IRepository`1
+  commentId: T:Hospital.Interfaces.IRepository`1
+  id: IRepository`1
+  parent: Hospital.Interfaces
+  children:
+  - Hospital.Interfaces.IRepository`1.CreateAsync(`0)
+  - Hospital.Interfaces.IRepository`1.DeleteAsync(System.String)
+  - Hospital.Interfaces.IRepository`1.GetAllAsync
+  - Hospital.Interfaces.IRepository`1.GetByIdAsync(System.String)
+  - Hospital.Interfaces.IRepository`1.UpdateAsync(System.String,`0)
+  langs:
+  - csharp
+  - vb
+  name: IRepository<T>
+  nameWithType: IRepository<T>
+  fullName: Hospital.Interfaces.IRepository<T>
+  type: Interface
+  source:
+    id: IRepository
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Interfaces/IRepository.cs
+    startLine: 7
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Interfaces
+  summary: >-
+    Represents a generic repository interface that defines basic CRUD operations.
+
+    This interface can be implemented for various entities, such as Patient, Doctor, etc.
+  example: []
+  syntax:
+    content: public interface IRepository<T>
+    typeParameters:
+    - id: T
+      description: The type of the entity the repository will manage.
+    content.vb: Public Interface IRepository(Of T)
+  nameWithType.vb: IRepository(Of T)
+  fullName.vb: Hospital.Interfaces.IRepository(Of T)
+  name.vb: IRepository(Of T)
+- uid: Hospital.Interfaces.IRepository`1.CreateAsync(`0)
+  commentId: M:Hospital.Interfaces.IRepository`1.CreateAsync(`0)
+  id: CreateAsync(`0)
+  parent: Hospital.Interfaces.IRepository`1
+  langs:
+  - csharp
+  - vb
+  name: CreateAsync(T)
+  nameWithType: IRepository<T>.CreateAsync(T)
+  fullName: Hospital.Interfaces.IRepository<T>.CreateAsync(T)
+  type: Method
+  source:
+    id: CreateAsync
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Interfaces/IRepository.cs
+    startLine: 14
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Interfaces
+  summary: Creates a new entity asynchronously in the repository.
+  example: []
+  syntax:
+    content: Task<string> CreateAsync(T entity)
+    parameters:
+    - id: entity
+      type: '{T}'
+      description: The entity to be created.
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: A task representing the asynchronous operation. The task result contains the ID of the created entity.
+    content.vb: Function CreateAsync(entity As T) As Task(Of String)
+  overload: Hospital.Interfaces.IRepository`1.CreateAsync*
+  nameWithType.vb: IRepository(Of T).CreateAsync(T)
+  fullName.vb: Hospital.Interfaces.IRepository(Of T).CreateAsync(T)
+- uid: Hospital.Interfaces.IRepository`1.GetAllAsync
+  commentId: M:Hospital.Interfaces.IRepository`1.GetAllAsync
+  id: GetAllAsync
+  parent: Hospital.Interfaces.IRepository`1
+  langs:
+  - csharp
+  - vb
+  name: GetAllAsync()
+  nameWithType: IRepository<T>.GetAllAsync()
+  fullName: Hospital.Interfaces.IRepository<T>.GetAllAsync()
+  type: Method
+  source:
+    id: GetAllAsync
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Interfaces/IRepository.cs
+    startLine: 20
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Interfaces
+  summary: Retrieves all entities from the repository asynchronously.
+  example: []
+  syntax:
+    content: Task<Dictionary<string, T>> GetAllAsync()
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,{T}}}
+      description: A task representing the asynchronous operation. The task result contains a dictionary of all entities, where the key is the entity's ID.
+    content.vb: Function GetAllAsync() As Task(Of Dictionary(Of String, T))
+  overload: Hospital.Interfaces.IRepository`1.GetAllAsync*
+  nameWithType.vb: IRepository(Of T).GetAllAsync()
+  fullName.vb: Hospital.Interfaces.IRepository(Of T).GetAllAsync()
+- uid: Hospital.Interfaces.IRepository`1.GetByIdAsync(System.String)
+  commentId: M:Hospital.Interfaces.IRepository`1.GetByIdAsync(System.String)
+  id: GetByIdAsync(System.String)
+  parent: Hospital.Interfaces.IRepository`1
+  langs:
+  - csharp
+  - vb
+  name: GetByIdAsync(string)
+  nameWithType: IRepository<T>.GetByIdAsync(string)
+  fullName: Hospital.Interfaces.IRepository<T>.GetByIdAsync(string)
+  type: Method
+  source:
+    id: GetByIdAsync
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Interfaces/IRepository.cs
+    startLine: 27
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Interfaces
+  summary: Retrieves an entity by its ID asynchronously.
+  example: []
+  syntax:
+    content: Task<T> GetByIdAsync(string id)
+    parameters:
+    - id: id
+      type: System.String
+      description: The ID of the entity to be retrieved.
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+      description: A task representing the asynchronous operation. The task result contains the entity if found, or <code>null</code> if not.
+    content.vb: Function GetByIdAsync(id As String) As Task(Of T)
+  overload: Hospital.Interfaces.IRepository`1.GetByIdAsync*
+  nameWithType.vb: IRepository(Of T).GetByIdAsync(String)
+  fullName.vb: Hospital.Interfaces.IRepository(Of T).GetByIdAsync(String)
+  name.vb: GetByIdAsync(String)
+- uid: Hospital.Interfaces.IRepository`1.UpdateAsync(System.String,`0)
+  commentId: M:Hospital.Interfaces.IRepository`1.UpdateAsync(System.String,`0)
+  id: UpdateAsync(System.String,`0)
+  parent: Hospital.Interfaces.IRepository`1
+  langs:
+  - csharp
+  - vb
+  name: UpdateAsync(string, T)
+  nameWithType: IRepository<T>.UpdateAsync(string, T)
+  fullName: Hospital.Interfaces.IRepository<T>.UpdateAsync(string, T)
+  type: Method
+  source:
+    id: UpdateAsync
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Interfaces/IRepository.cs
+    startLine: 35
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Interfaces
+  summary: Updates an existing entity in the repository asynchronously.
+  example: []
+  syntax:
+    content: Task UpdateAsync(string id, T entity)
+    parameters:
+    - id: id
+      type: System.String
+      description: The ID of the entity to be updated.
+    - id: entity
+      type: '{T}'
+      description: The updated entity to replace the old one.
+    return:
+      type: System.Threading.Tasks.Task
+      description: A task representing the asynchronous operation.
+    content.vb: Function UpdateAsync(id As String, entity As T) As Task
+  overload: Hospital.Interfaces.IRepository`1.UpdateAsync*
+  nameWithType.vb: IRepository(Of T).UpdateAsync(String, T)
+  fullName.vb: Hospital.Interfaces.IRepository(Of T).UpdateAsync(String, T)
+  name.vb: UpdateAsync(String, T)
+- uid: Hospital.Interfaces.IRepository`1.DeleteAsync(System.String)
+  commentId: M:Hospital.Interfaces.IRepository`1.DeleteAsync(System.String)
+  id: DeleteAsync(System.String)
+  parent: Hospital.Interfaces.IRepository`1
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync(string)
+  nameWithType: IRepository<T>.DeleteAsync(string)
+  fullName: Hospital.Interfaces.IRepository<T>.DeleteAsync(string)
+  type: Method
+  source:
+    id: DeleteAsync
+    path: /home/Coder/Escritorio/Assetment_Desarollo/PruebaJuanGuzman/Interfaces/IRepository.cs
+    startLine: 42
+  assemblies:
+  - PruebaJuanGuzman
+  namespace: Hospital.Interfaces
+  summary: Deletes an entity from the repository asynchronously.
+  example: []
+  syntax:
+    content: Task DeleteAsync(string id)
+    parameters:
+    - id: id
+      type: System.String
+      description: The ID of the entity to be deleted.
+    return:
+      type: System.Threading.Tasks.Task
+      description: A task representing the asynchronous operation.
+    content.vb: Function DeleteAsync(id As String) As Task
+  overload: Hospital.Interfaces.IRepository`1.DeleteAsync*
+  nameWithType.vb: IRepository(Of T).DeleteAsync(String)
+  fullName.vb: Hospital.Interfaces.IRepository(Of T).DeleteAsync(String)
+  name.vb: DeleteAsync(String)
+references:
+- uid: Hospital.Interfaces
+  commentId: N:Hospital.Interfaces
+  href: Hospital.html
+  name: Hospital.Interfaces
+  nameWithType: Hospital.Interfaces
+  fullName: Hospital.Interfaces
+  spec.csharp:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Interfaces
+    name: Interfaces
+    href: Hospital.Interfaces.html
+  spec.vb:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Interfaces
+    name: Interfaces
+    href: Hospital.Interfaces.html
+- uid: Hospital.Interfaces.IRepository`1.CreateAsync*
+  commentId: Overload:Hospital.Interfaces.IRepository`1.CreateAsync
+  href: Hospital.Interfaces.IRepository-1.html#Hospital_Interfaces_IRepository_1_CreateAsync__0_
+  name: CreateAsync
+  nameWithType: IRepository<T>.CreateAsync
+  fullName: Hospital.Interfaces.IRepository<T>.CreateAsync
+  nameWithType.vb: IRepository(Of T).CreateAsync
+  fullName.vb: Hospital.Interfaces.IRepository(Of T).CreateAsync
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Hospital.Interfaces.IRepository`1.GetAllAsync*
+  commentId: Overload:Hospital.Interfaces.IRepository`1.GetAllAsync
+  href: Hospital.Interfaces.IRepository-1.html#Hospital_Interfaces_IRepository_1_GetAllAsync
+  name: GetAllAsync
+  nameWithType: IRepository<T>.GetAllAsync
+  fullName: Hospital.Interfaces.IRepository<T>.GetAllAsync
+  nameWithType.vb: IRepository(Of T).GetAllAsync
+  fullName.vb: Hospital.Interfaces.IRepository(Of T).GetAllAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,{T}}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.Dictionary{System.String,`0}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Dictionary<string, T>>
+  nameWithType: Task<Dictionary<string, T>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<string, T>>
+  nameWithType.vb: Task(Of Dictionary(Of String, T))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.Dictionary(Of String, T))
+  name.vb: Task(Of Dictionary(Of String, T))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: T
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: Hospital.Interfaces.IRepository`1.GetByIdAsync*
+  commentId: Overload:Hospital.Interfaces.IRepository`1.GetByIdAsync
+  href: Hospital.Interfaces.IRepository-1.html#Hospital_Interfaces_IRepository_1_GetByIdAsync_System_String_
+  name: GetByIdAsync
+  nameWithType: IRepository<T>.GetByIdAsync
+  fullName: Hospital.Interfaces.IRepository<T>.GetByIdAsync
+  nameWithType.vb: IRepository(Of T).GetByIdAsync
+  fullName.vb: Hospital.Interfaces.IRepository(Of T).GetByIdAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.Tasks.Task{{T}}
+  commentId: T:System.Threading.Tasks.Task{`0}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<T>
+  nameWithType: Task<T>
+  fullName: System.Threading.Tasks.Task<T>
+  nameWithType.vb: Task(Of T)
+  fullName.vb: System.Threading.Tasks.Task(Of T)
+  name.vb: Task(Of T)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Hospital.Interfaces.IRepository`1.UpdateAsync*
+  commentId: Overload:Hospital.Interfaces.IRepository`1.UpdateAsync
+  href: Hospital.Interfaces.IRepository-1.html#Hospital_Interfaces_IRepository_1_UpdateAsync_System_String__0_
+  name: UpdateAsync
+  nameWithType: IRepository<T>.UpdateAsync
+  fullName: Hospital.Interfaces.IRepository<T>.UpdateAsync
+  nameWithType.vb: IRepository(Of T).UpdateAsync
+  fullName.vb: Hospital.Interfaces.IRepository(Of T).UpdateAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: Hospital.Interfaces.IRepository`1.DeleteAsync*
+  commentId: Overload:Hospital.Interfaces.IRepository`1.DeleteAsync
+  href: Hospital.Interfaces.IRepository-1.html#Hospital_Interfaces_IRepository_1_DeleteAsync_System_String_
+  name: DeleteAsync
+  nameWithType: IRepository<T>.DeleteAsync
+  fullName: Hospital.Interfaces.IRepository<T>.DeleteAsync
+  nameWithType.vb: IRepository(Of T).DeleteAsync
+  fullName.vb: Hospital.Interfaces.IRepository(Of T).DeleteAsync

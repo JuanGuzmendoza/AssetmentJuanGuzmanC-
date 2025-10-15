@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: Hospital.Models
+  commentId: N:Hospital.Models
+  id: Hospital.Models
+  children:
+  - Hospital.Models.Appointment
+  - Hospital.Models.AppointmentStatus
+  - Hospital.Models.Doctor
+  - Hospital.Models.EmailAction
+  - Hospital.Models.EmailLog
+  - Hospital.Models.EmailStatus
+  - Hospital.Models.Patient
+  - Hospital.Models.Person
+  - Hospital.Models.User
+  langs:
+  - csharp
+  - vb
+  name: Hospital.Models
+  nameWithType: Hospital.Models
+  fullName: Hospital.Models
+  type: Namespace
+  assemblies:
+  - PruebaJuanGuzman
+references:
+- uid: Hospital.Models.Appointment
+  commentId: T:Hospital.Models.Appointment
+  parent: Hospital.Models
+  href: Hospital.Models.Appointment.html
+  name: Appointment
+  nameWithType: Appointment
+  fullName: Hospital.Models.Appointment
+- uid: Hospital.Models.AppointmentStatus
+  commentId: T:Hospital.Models.AppointmentStatus
+  parent: Hospital.Models
+  href: Hospital.Models.AppointmentStatus.html
+  name: AppointmentStatus
+  nameWithType: AppointmentStatus
+  fullName: Hospital.Models.AppointmentStatus
+- uid: Hospital.Models.Doctor
+  commentId: T:Hospital.Models.Doctor
+  parent: Hospital.Models
+  href: Hospital.Models.Doctor.html
+  name: Doctor
+  nameWithType: Doctor
+  fullName: Hospital.Models.Doctor
+- uid: Hospital.Models.EmailAction
+  commentId: T:Hospital.Models.EmailAction
+  parent: Hospital.Models
+  href: Hospital.Models.EmailAction.html
+  name: EmailAction
+  nameWithType: EmailAction
+  fullName: Hospital.Models.EmailAction
+- uid: Hospital.Models.EmailLog
+  commentId: T:Hospital.Models.EmailLog
+  parent: Hospital.Models
+  href: Hospital.Models.EmailLog.html
+  name: EmailLog
+  nameWithType: EmailLog
+  fullName: Hospital.Models.EmailLog
+- uid: Hospital.Models.EmailStatus
+  commentId: T:Hospital.Models.EmailStatus
+  parent: Hospital.Models
+  href: Hospital.Models.EmailStatus.html
+  name: EmailStatus
+  nameWithType: EmailStatus
+  fullName: Hospital.Models.EmailStatus
+- uid: Hospital.Models.Patient
+  commentId: T:Hospital.Models.Patient
+  parent: Hospital.Models
+  href: Hospital.Models.Patient.html
+  name: Patient
+  nameWithType: Patient
+  fullName: Hospital.Models.Patient
+- uid: Hospital.Models.Person
+  commentId: T:Hospital.Models.Person
+  parent: Hospital.Models
+  href: Hospital.Models.Person.html
+  name: Person
+  nameWithType: Person
+  fullName: Hospital.Models.Person
+- uid: Hospital.Models.User
+  commentId: T:Hospital.Models.User
+  parent: Hospital.Models
+  href: Hospital.Models.User.html
+  name: User
+  nameWithType: User
+  fullName: Hospital.Models.User
+- uid: Hospital.Models
+  commentId: N:Hospital.Models
+  href: Hospital.html
+  name: Hospital.Models
+  nameWithType: Hospital.Models
+  fullName: Hospital.Models
+  spec.csharp:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Models
+    name: Models
+    href: Hospital.Models.html
+  spec.vb:
+  - uid: Hospital
+    name: Hospital
+    href: Hospital.html
+  - name: .
+  - uid: Hospital.Models
+    name: Models
+    href: Hospital.Models.html

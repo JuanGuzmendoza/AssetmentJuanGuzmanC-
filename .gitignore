@@ -1,0 +1,58 @@
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio / VS Code cache and settings
+.vs/
+.vscode/
+*.csproj.user
+*.dotsettings.user
+*.swp
+
+# DocFX generated site
+_site/
+
+# Rider files
+.idea/
+*.sln.iml
+
+# Mac/Linux files
+*.DS_Store
+Thumbs.db
+
+# NuGet packages
+*.nupkg
+*.snupkg
+/packages/
+!/packages/repositories.config
+
+# Secrets and local configuration files
+appsettings.Development.json
+secrets.json
+
+# Tooling
+.DS_Store
+.toolstarget
+.vsix
+/tools/
+
+# Test Results
+*.trx
+*.xunit
+TestResults/
