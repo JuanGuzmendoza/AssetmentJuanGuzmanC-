@@ -23,7 +23,6 @@ A key feature of this system is the integration of a Google Gemini-powered AI, w
 4.  [Prerequisites](#prerequisites)
 5.  [Setup and Installation](#setup-and-installation)
 6.  [How to Use](#how-to-use)
-7.  [System Diagrams](#system-diagrams)
 
 ---
 
@@ -103,8 +102,8 @@ Follow these steps to get the project running locally.
 
 **Step 1: Clone the Repository**
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/JuanGuzmendoza/AssetmentJuanGuzmanC-.git
+cd AssetmentJuanGuzmanC
 ```
 
 
@@ -130,12 +129,4 @@ Once the application is running, you will be presented with a main menu in the c
 
 ---
 
-### System Diagrams
 
-*(Please insert your diagrams here)*
-
-#### Use Case Diagram
-![Use Case Diagram](path/to/your/use-case-diagram.png)
-
-#### Class Diagram
-![Class Diagram](path/to/your/class-diagram.png)
